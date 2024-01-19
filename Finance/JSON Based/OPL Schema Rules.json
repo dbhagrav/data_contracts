@@ -1,0 +1,2939 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Sender": {
+      "type": "object",
+      "properties": {
+        "applicationName": {
+          "type": "string"
+        },
+        "dataset": {
+          "type": "string"
+        },
+        "referenceId": {
+          "type": "string"
+        },
+        "controlId": {
+          "type": "integer"
+        },
+        "subscriber": {
+          "type": "string"
+        },
+        "eventName": {
+          "type": "string"
+        },
+        "eventId": {
+          "type": "integer"
+        },
+        "eventTime": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "chunkNum": {
+          "type": "integer"
+        },
+        "totalChunks": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "applicationName",
+        "dataset",
+        "referenceId",
+        "controlId",
+        "subscriber",
+        "eventName",
+        "eventId",
+        "eventTime",
+        "source",
+        "chunkNum",
+        "totalChunks"
+      ]
+    },
+    "OrderData": {
+      "type": "object",
+      "properties": {
+        "Header": {
+          "type": "object",
+          "properties": {
+            "headerId": {
+              "type": "integer"
+            },
+            "orderNumber": {
+              "type": "string"
+            },
+            "origSysDocumentRef": {
+              "type": "string"
+            },
+            "orgId": {
+              "type": "integer"
+            },
+            "custPoNumber": {
+              "type": "string"
+            },
+            "orderCategory": {
+              "type": "string"
+            },
+            "orderTypeId": {
+              "type": "integer"
+            },
+            "priceListId": {
+              "type": "integer"
+            },
+            "priceListName": {
+              "type": "string"
+            },
+            "programType": {
+              "type": "string"
+            },
+            "safNumber": {
+              "type": "integer"
+            },
+            "orderSourceId": {
+              "type": "integer"
+            },
+            "orderOrigin": {
+              "type": "string"
+            },
+            "intendedUse": {
+              "type": "string"
+            },
+            "federalFlag": {
+              "type": "string"
+            },
+            "currencyCode": {
+              "type": "string"
+            },
+            "salesChannelCode": {
+              "type": "string"
+            },
+            "ciscoamUserId": {
+              "type": "null"
+            },
+            "routeToMarket": {
+              "type": "string"
+            },
+            "quoteCreationDate": {
+              "type": "string"
+            },
+            "dealId": {
+              "type": "null"
+            },
+            "orderSubmittedBy": {
+              "type": "string"
+            },
+            "orderSubmittedDate": {
+              "type": "string"
+            },
+            "bookedDate": {
+              "type": "string"
+            },
+            "flowStatusCode": {
+              "type": "string"
+            },
+            "invoiceToOrgId": {
+              "type": "integer"
+            },
+            "resellerBid": {
+              "type": "null"
+            },
+            "sourceOrderType": {
+              "type": "null"
+            },
+            "paymentMethod": {
+              "type": "string"
+            },
+            "taxability": {
+              "type": "string"
+            },
+            "billingToPgtmvbegeoid": {
+              "type": "integer"
+            },
+            "billingToPgtmvbeid": {
+              "type": "integer"
+            },
+            "billingToPgtmvbecountryid": {
+              "type": "null"
+            },
+            "billingToPgtmvbegeositeid": {
+              "type": "integer"
+            },
+            "billingToChannelid": {
+              "type": "null"
+            },
+            "hybridOrderFlag": {
+              "type": "string"
+            },
+            "erpOrderNumber": {
+              "type": "integer"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "createdBy": {
+              "type": "string"
+            },
+            "lastUpdatedDate": {
+              "type": "string"
+            },
+            "lastUpdatedBy": {
+              "type": "string"
+            },
+            "derivedExposureAttribute4": {
+              "type": "string"
+            },
+            "derivedHoldAmountUsd": {
+              "type": "number"
+            },
+            "derivedOrderAmountUsd": {
+              "type": "number"
+            },
+            "derivedOperatingUnit": {
+              "type": "string"
+            },
+            "derivedOuShortCode": {
+              "type": "string"
+            },
+            "orderHoldId": {
+              "type": "null"
+            },
+            "sourceHeaderId": {
+              "type": "null"
+            },
+            "sourceLineId": {
+              "type": "null"
+            },
+            "origSysLineRef": {
+              "type": "null"
+            },
+            "accountTypeCode": {
+              "type": "string"
+            },
+            "proxyUsername": {
+              "type": "string"
+            },
+            "proxyUserid": {
+              "type": "string"
+            },
+            "proxyUseremail": {
+              "type": "string"
+            },
+            "useremail": {
+              "type": "string"
+            },
+            "ccpHoldCause": {
+              "type": "string"
+            },
+            "creditAnalystEmail": {
+              "type": "null"
+            },
+            "economicCustomerId": {
+              "type": "null"
+            },
+            "economicCustomerName": {
+              "type": "null"
+            },
+            "derivedCmfsReleaseReason": {
+              "type": "null"
+            },
+            "derivedCmfsReleasedBy": {
+              "type": "null"
+            },
+            "advanceDrawDown": {
+              "type": "null"
+            },
+            "exceptionFlag": {
+              "type": "string"
+            },
+            "exceptionMsg": {
+              "type": "null"
+            },
+            "autoRenewalFlag": {
+              "type": "string"
+            },
+            "holdAmount": {
+              "type": "number"
+            },
+            "totalOrderAmount": {
+              "type": "number"
+            },
+            "soldToPgtmvbegeoid": {
+              "type": "null"
+            },
+            "soldToPgtmvbeid": {
+              "type": "null"
+            },
+            "soldToPgtmvbecountryid": {
+              "type": "null"
+            },
+            "soldToPgtmvbegeositeid": {
+              "type": "null"
+            },
+            "soldToChannelid": {
+              "type": "null"
+            },
+            "approvalCode": {
+              "type": "string"
+            },
+            "headerFlowId": {
+              "type": "null"
+            },
+            "bookingEligibleDate": {
+              "type": "string"
+            },
+            "customerPoDate": {
+              "type": "string"
+            },
+            "captureOrderId": {
+              "type": "null"
+            },
+            "openFlag": {
+              "type": "string"
+            },
+            "statusUpdateDate": {
+              "type": "string"
+            },
+            "changeCode": {
+              "type": "null"
+            },
+            "quoteType": {
+              "type": "null"
+            },
+            "transactionFlow": {
+              "type": "null"
+            },
+            "quoteNumber": {
+              "type": "null"
+            },
+            "migrationType": {
+              "type": "null"
+            },
+            "expirationDate": {
+              "type": "null"
+            },
+            "paymentTermId": {
+              "type": "integer"
+            },
+            "paymentTermName": {
+              "type": "null"
+            },
+            "conversionRate": {
+              "type": "integer"
+            },
+            "opportunityId": {
+              "type": "null"
+            },
+            "alignFlag": {
+              "type": "null"
+            },
+            "billingDepartment": {
+              "type": "null"
+            },
+            "cbnIdentifier": {
+              "type": "null"
+            },
+            "ceEnableCountryCode": {
+              "type": "null"
+            },
+            "context": {
+              "type": "string"
+            },
+            "conversionTypeCode": {
+              "type": "string"
+            },
+            "createdByCcoUser": {
+              "type": "null"
+            },
+            "creditCard": {
+              "type": "null"
+            },
+            "csCaseNumber": {
+              "type": "null"
+            },
+            "customerAcceptanceFlag": {
+              "type": "null"
+            },
+            "customerReference": {
+              "type": "null"
+            },
+            "deliveryOptions": {
+              "type": "null"
+            },
+            "dpasNumber": {
+              "type": "null"
+            },
+            "dropShipFlag": {
+              "type": "null"
+            },
+            "erpHeaderId": {
+              "type": "string"
+            },
+            "exchangeRate": {
+              "type": "null"
+            },
+            "faxReceivedDate": {
+              "type": "null"
+            },
+            "mspPgtmvBecId": {
+              "type": "null"
+            },
+            "notes": {
+              "type": "null"
+            },
+            "onCiscoPremises": {
+              "type": "null"
+            },
+            "orderDateTypeCode": {
+              "type": "string"
+            },
+            "orderName": {
+              "type": "null"
+            },
+            "partialShipmentsAllowed": {
+              "type": "null"
+            },
+            "partnerRefNumber": {
+              "type": "null"
+            },
+            "paymentAmount": {
+              "type": "null"
+            },
+            "paymentTypeCode": {
+              "type": "null"
+            },
+            "pbsQuoteFlag": {
+              "type": "null"
+            },
+            "primeDealFlag": {
+              "type": "string"
+            },
+            "projectNumber": {
+              "type": "null"
+            },
+            "referenceNumber": {
+              "type": "null"
+            },
+            "returnFromCountryCd": {
+              "type": "null"
+            },
+            "returnReason": {
+              "type": "null"
+            },
+            "revenueImpactingProgram": {
+              "type": "null"
+            },
+            "revenuePrgmNameDesc": {
+              "type": "null"
+            },
+            "shippingMethodCode": {
+              "type": "string"
+            },
+            "sourceDocumentId": {
+              "type": "string"
+            },
+            "sourceDocumentTypeId": {
+              "type": "string"
+            },
+            "submittedByUsername": {
+              "type": "string"
+            },
+            "summaryQuoteFlag": {
+              "type": "null"
+            },
+            "summaryQuoteType": {
+              "type": "null"
+            },
+            "sweepsOrder": {
+              "type": "null"
+            },
+            "taaCustAckFlag": {
+              "type": "null"
+            },
+            "taaDpas": {
+              "type": "null"
+            },
+            "tacCaseNumber": {
+              "type": "null"
+            },
+            "taxExemptFlag": {
+              "type": "string"
+            },
+            "taxExemptNumber": {
+              "type": "null"
+            },
+            "taxExemptReasonCode": {
+              "type": "null"
+            },
+            "taxExemptionExceptionFlag": {
+              "type": "null"
+            },
+            "tradeinQuoteNumber": {
+              "type": "null"
+            },
+            "customerAcceptanceDate": {
+              "type": "null"
+            },
+            "adjustmentNumber": {
+              "type": "null"
+            },
+            "bookedFlag": {
+              "type": "string"
+            },
+            "versionNumber": {
+              "type": "null"
+            },
+            "sourceProfileId": {
+              "type": "null"
+            },
+            "distiSoNumber": {
+              "type": "null"
+            },
+            "soldForPriceFlag": {
+              "type": "null"
+            },
+            "groupLineTypeCode": {
+              "type": "null"
+            },
+            "ucSiteUseId": {
+              "type": "null"
+            },
+            "soldToOrgId": {
+              "type": "integer"
+            },
+            "ucType": {
+              "type": "null"
+            },
+            "fcmDealId": {
+              "type": "null"
+            },
+            "shipToOrgId": {
+              "type": "integer"
+            },
+            "returnAttr": {
+              "type": "null"
+            },
+            "originalOrderNumber": {
+              "type": "null"
+            },
+            "orderTotal": {
+              "type": "null"
+            },
+            "shippingInstructions": {
+              "type": "null"
+            },
+            "masterAgentId": {
+              "type": "null"
+            },
+            "subAgentId": {
+              "type": "null"
+            },
+            "subAgentName": {
+              "type": "null"
+            },
+            "merakiHybridFlag": {
+              "type": "null"
+            },
+            "sourceInvoiceId": {
+              "type": "null"
+            },
+            "sourceInvoiceDate": {
+              "type": "null"
+            },
+            "sourceBankTraceId": {
+              "type": "null"
+            },
+            "periodicBillingFlag": {
+              "type": "string"
+            },
+            "periodicInvoiceSchedule": {
+              "type": "string"
+            },
+            "dealType": {
+              "type": "null"
+            },
+            "previousInvoiceToOrgId": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "headerId",
+            "orderNumber",
+            "origSysDocumentRef",
+            "orgId",
+            "custPoNumber",
+            "orderCategory",
+            "orderTypeId",
+            "priceListId",
+            "priceListName",
+            "programType",
+            "safNumber",
+            "orderSourceId",
+            "orderOrigin",
+            "intendedUse",
+            "federalFlag",
+            "currencyCode",
+            "salesChannelCode",
+            "ciscoamUserId",
+            "routeToMarket",
+            "quoteCreationDate",
+            "dealId",
+            "orderSubmittedBy",
+            "orderSubmittedDate",
+            "bookedDate",
+            "flowStatusCode",
+            "invoiceToOrgId",
+            "resellerBid",
+            "sourceOrderType",
+            "paymentMethod",
+            "taxability",
+            "billingToPgtmvbegeoid",
+            "billingToPgtmvbeid",
+            "billingToPgtmvbecountryid",
+            "billingToPgtmvbegeositeid",
+            "billingToChannelid",
+            "hybridOrderFlag",
+            "erpOrderNumber",
+            "creationDate",
+            "createdBy",
+            "lastUpdatedDate",
+            "lastUpdatedBy",
+            "derivedExposureAttribute4",
+            "derivedHoldAmountUsd",
+            "derivedOrderAmountUsd",
+            "derivedOperatingUnit",
+            "derivedOuShortCode",
+            "orderHoldId",
+            "sourceHeaderId",
+            "sourceLineId",
+            "origSysLineRef",
+            "accountTypeCode",
+            "proxyUsername",
+            "proxyUserid",
+            "proxyUseremail",
+            "useremail",
+            "ccpHoldCause",
+            "creditAnalystEmail",
+            "economicCustomerId",
+            "economicCustomerName",
+            "derivedCmfsReleaseReason",
+            "derivedCmfsReleasedBy",
+            "advanceDrawDown",
+            "exceptionFlag",
+            "exceptionMsg",
+            "autoRenewalFlag",
+            "holdAmount",
+            "totalOrderAmount",
+            "soldToPgtmvbegeoid",
+            "soldToPgtmvbeid",
+            "soldToPgtmvbecountryid",
+            "soldToPgtmvbegeositeid",
+            "soldToChannelid",
+            "approvalCode",
+            "headerFlowId",
+            "bookingEligibleDate",
+            "customerPoDate",
+            "captureOrderId",
+            "openFlag",
+            "statusUpdateDate",
+            "changeCode",
+            "quoteType",
+            "transactionFlow",
+            "quoteNumber",
+            "migrationType",
+            "expirationDate",
+            "paymentTermId",
+            "paymentTermName",
+            "conversionRate",
+            "opportunityId",
+            "alignFlag",
+            "billingDepartment",
+            "cbnIdentifier",
+            "ceEnableCountryCode",
+            "context",
+            "conversionTypeCode",
+            "createdByCcoUser",
+            "creditCard",
+            "csCaseNumber",
+            "customerAcceptanceFlag",
+            "customerReference",
+            "deliveryOptions",
+            "dpasNumber",
+            "dropShipFlag",
+            "erpHeaderId",
+            "exchangeRate",
+            "faxReceivedDate",
+            "mspPgtmvBecId",
+            "notes",
+            "onCiscoPremises",
+            "orderDateTypeCode",
+            "orderName",
+            "partialShipmentsAllowed",
+            "partnerRefNumber",
+            "paymentAmount",
+            "paymentTypeCode",
+            "pbsQuoteFlag",
+            "primeDealFlag",
+            "projectNumber",
+            "referenceNumber",
+            "returnFromCountryCd",
+            "returnReason",
+            "revenueImpactingProgram",
+            "revenuePrgmNameDesc",
+            "shippingMethodCode",
+            "sourceDocumentId",
+            "sourceDocumentTypeId",
+            "submittedByUsername",
+            "summaryQuoteFlag",
+            "summaryQuoteType",
+            "sweepsOrder",
+            "taaCustAckFlag",
+            "taaDpas",
+            "tacCaseNumber",
+            "taxExemptFlag",
+            "taxExemptNumber",
+            "taxExemptReasonCode",
+            "taxExemptionExceptionFlag",
+            "tradeinQuoteNumber",
+            "customerAcceptanceDate",
+            "adjustmentNumber",
+            "bookedFlag",
+            "versionNumber",
+            "sourceProfileId",
+            "distiSoNumber",
+            "soldForPriceFlag",
+            "groupLineTypeCode",
+            "ucSiteUseId",
+            "soldToOrgId",
+            "ucType",
+            "fcmDealId",
+            "shipToOrgId",
+            "returnAttr",
+            "originalOrderNumber",
+            "orderTotal",
+            "shippingInstructions",
+            "masterAgentId",
+            "subAgentId",
+            "subAgentName",
+            "merakiHybridFlag",
+            "sourceInvoiceId",
+            "sourceInvoiceDate",
+            "sourceBankTraceId",
+            "periodicBillingFlag",
+            "periodicInvoiceSchedule",
+            "dealType",
+            "previousInvoiceToOrgId"
+          ]
+        },
+        "Lines": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "subscriptionactiontype": {
+                  "type": "string",
+                  "enum": [ "NEW", "MODIFY", "REPLACE", "AR", "MR"]
+                },
+                "sourceorderlinetype": {
+                  "type": "null"
+                },
+                "amount": {
+                  "type": "null"
+                },
+                "lineFlowId": {
+                  "type": "null"
+                },
+                "headerId": {
+                  "type": "integer"
+                },
+                "lineId": {
+                  "type": "integer"
+                },
+                "origSystemLineRef": {
+                  "type": "string"
+                },
+                "erpLineId": {
+                  "type": "null"
+                },
+                "orgId": {
+                  "type": "null"
+                },
+                "orderedItem": {
+                  "type": "string"
+                },
+                "itemTypeCode": {
+                  "type": "string",
+                  "not": {
+                    "enum": [ "Major", "Minor", "Bundle" ]
+                  }
+                  },
+                "itemType": {
+                  "type": "null"
+                },
+                "itemCategorization": {
+                  "type": "string"
+                },
+                "itemCategory": {
+                  "type": "string"
+                },
+                "lineNumber": {
+                  "type": "null"
+                },
+                "lineType": {
+                  "type": "string"
+                },
+                "drawDownAmount": {
+                  "type": "null"
+                },
+                "flowStatusCode": {
+                  "type": "string",
+                  "not": { "enum": [ "FULLFILMENT_COMPLETE", "ACTIVATION_COMPLETE" ] }
+                },
+                "prepayTerm": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "orderedQuantity": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "cancelledQuantity": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "usageQuantity": {
+                  "type": "null"
+                },
+                "offerQuantity": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "pricingQtyTo": {
+                  "type": "null"
+                },
+                "minorLineAmount": {
+                  "type": "null"
+                },
+                "offerUnitNetPrice": {
+                  "type": "integer"
+                },
+                "extListPrice": {
+                  "type": "integer"
+                },
+                "extNetPrice": {
+                  "type": "integer"
+                },
+                "maxUnitSalePrice": {
+                  "type": "null"
+                },
+                "unitListPrice": {
+                  "type": "integer"
+                },
+                "unitNetPrice": {
+                  "type": "integer",
+                  "pattern": "^(0*[1-9]\\d*|0*\\d+\\.\\d*[1-9]\\d*)$"
+                },
+                "roundedUnitNetPrice": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "netPriceChangeFlag": {
+                  "type": "integer",
+                  "enum": [1,3]
+                },
+                "chargeType": {
+                  "type": "string",
+                  "enum": [ "Recurring", "usage", "AOT" ]
+                },
+                "priceListVersion": {
+                  "type": "null"
+                },
+                "billingModel": {
+                  "type": "string"
+                },
+                "deliveryMethod": {
+                  "type": "string"
+                },
+                "unitOfMeasure": {
+                  "type": "null"
+                },
+                "shipFromOrgId": {
+                  "type": "null"
+                },
+                "shipToOrgId": {
+                  "type": "integer"
+                },
+                "installSiteuseId": {
+                  "type": "null"
+                },
+                "topModelLineId": {
+                  "type": "null"
+                },
+                "linkToLineId": {
+                  "type": "null"
+                },
+                "subscriptionRefId": {
+                  "type": "string"
+                },
+                "subscriptionId": {
+                  "type": "string"
+                },
+                "provisionRequired": {
+                  "type": "null"
+                },
+                "provisionReferenceId": {
+                  "type": "null"
+                },
+                "actionType": {
+                  "type": "integer",
+                  "enum": [0,1,2,3]
+                },
+                "actionSubType": {
+                  "type": "string"
+                },
+                "sellType": {
+                  "type": "string"
+                },
+                "monthlyRecurringRevenue": {
+                  "type": "number"
+                },
+                "initialTerm": {
+                  "type": "number"
+                },
+                "renewalTerm": {
+                  "type": "integer"
+                },
+                "previousSubscriptionId": {
+                  "type": "string"
+                },
+                "timeUpTerm": {
+                  "type": "null"
+                },
+                "initialTermTo": {
+                  "type": "null"
+                },
+                "prepayTermTo": {
+                  "type": "null"
+                },
+                "trueUpTerm": {
+                  "type": "null"
+                },
+                "quoteNumber": {
+                  "type": "null"
+                },
+                "requestedStartDate": {
+                  "type": "string"
+                },
+                "contractStartDate": {
+                  "type": "null"
+                },
+                "contractEndDate": {
+                  "type": "null"
+                },
+                "chargeStartDate": {
+                  "type": "null"
+                },
+                "chargeEndDate": {
+                  "type": "null"
+                },
+                "endCustomerSiteUseId": {
+                  "type": "integer"
+                },
+                "endCustomerPgtmvbegeoid": {
+                  "type": "integer"
+                },
+                "endCustomerPgtmvbeid": {
+                  "type": "integer"
+                },
+                "endCustomerPgtmvbecountryid": {
+                  "type": "null"
+                },
+                "endCustomerPgtmvbegeositeid": {
+                  "type": "integer"
+                },
+                "endCustomerChannelid": {
+                  "type": "null"
+                },
+                "shipToPgtmvbegeoid": {
+                  "type": "integer"
+                },
+                "shipToPgtmvbeid": {
+                  "type": "integer"
+                },
+                "shipToPgtmvbecountryid": {
+                  "type": "null"
+                },
+                "shipToPgtmvbegeositeid": {
+                  "type": "integer"
+                },
+                "shipToChannelid": {
+                  "type": "null"
+                },
+                "derivedSubActionType": {
+                  "type": "null"
+                },
+                "derivedSrcOrderLineType": {
+                  "type": "null"
+                },
+                "derivedAmount": {
+                  "type": "null"
+                },
+                "rateTableUrl": {
+                  "type": "null"
+                },
+                "rateTableName": {
+                  "type": "null"
+                },
+                "poLineReference": {
+                  "type": "null"
+                },
+                "orderHoldId": {
+                  "type": "null"
+                },
+                "sourceHeaderId": {
+                  "type": "null"
+                },
+                "origSysDocumentRef": {
+                  "type": "string"
+                },
+                "sourceLineId": {
+                  "type": "null"
+                },
+                "discount": {
+                  "type": "integer"
+                },
+                "origSysLineNumber": {
+                  "type": "null"
+                },
+                "creationDate": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "estimatedStartDate": {
+                  "type": "string"
+                },
+                "manualAcceptedDate": {
+                  "type": "string"
+                },
+                "derivedLineStatusCode": {
+                  "type": "string"
+                },
+                "lastUpdateDate": {
+                  "type": "string"
+                },
+                "lastUpdatedBy": {
+                  "type": "string"
+                },
+                "exceptionFlag": {
+                  "type": "string"
+                },
+                "exceptionMsg": {
+                  "type": "null"
+                },
+                "bundleId": {
+                  "type": "null"
+                },
+                "leadtimeInDays": {
+                  "type": "string"
+                },
+                "renewLeadtimeInDays": {
+                  "type": "null"
+                },
+                "monthlyNpiIncludingCredits": {
+                  "type": "null"
+                },
+                "extendedNpiIncludingCredits": {
+                  "type": "null"
+                },
+                "monthlySubCredits": {
+                  "type": "null"
+                },
+                "bundleType": {
+                  "type": "null"
+                },
+                "bundleLine": {
+                  "type": "string"
+                },
+                "autoAccept": {
+                  "type": "null"
+                },
+                "fulfillmentSystem": {
+                  "type": "null"
+                },
+                "fulfillmentMethod": {
+                  "type": "null"
+                },
+                "activationSystem": {
+                  "type": "string"
+                },
+                "businessScenario": {
+                  "type": "integer"
+                },
+                "leadtimeDate": {
+                  "type": "string"
+                },
+                "derivedSubCreditAmt": {
+                  "type": "integer"
+                },
+                "inventoryItemId": {
+                  "type": "integer"
+                },
+                "derivedGspType": {
+                  "type": "null"
+                },
+                "derivedGspItemName": {
+                  "type": "null"
+                },
+                "contractNumber": {
+                  "type": "null"
+                },
+                "serviceStartDate": {
+                  "type": "null"
+                },
+                "serviceEndDate": {
+                  "type": "null"
+                },
+                "originServer": {
+                  "type": "null"
+                },
+                "derivedOpendnsFlag": {
+                  "type": "string"
+                },
+                "unitNetpriceInclCredit": {
+                  "type": "integer"
+                },
+                "derivedHoldFlag": {
+                  "type": "string"
+                },
+                "removedLineFlag": {
+                  "type": "null"
+                },
+                "arr": {
+                  "type": "null"
+                },
+                "imrr": {
+                  "type": "null"
+                },
+                "nrr": {
+                  "type": "null"
+                },
+                "bookingPercentage": {
+                  "type": "null"
+                },
+                "referencedId": {
+                  "type": "null"
+                },
+                "termLength": {
+                  "type": "null"
+                },
+                "cancellationReason": {
+                  "type": "null"
+                },
+                "cancelReason": {
+                  "type": "null"
+                },
+                "monthlyNetPrice": {
+                  "type": "null"
+                },
+                "renewCounter": {
+                  "type": "string"
+                },
+                "eccNum": {
+                  "type": "string"
+                },
+                "advanceDrawdownAmount": {
+                  "type": "null"
+                },
+                "eshipConfirmDate": {
+                  "type": "string"
+                },
+                "renewLeadTimeDate": {
+                  "type": "null"
+                },
+                "legacyUniqueId": {
+                  "type": "null"
+                },
+                "subscriptionCredits": {
+                  "type": "integer"
+                },
+                "monthlyAmortizeOnetimeCharge": {
+                  "type": "null"
+                },
+                "licenseNumber": {
+                  "type": "string"
+                },
+                "monthlyNpExclCredit": {
+                  "type": "null"
+                },
+                "lineRefNumber": {
+                  "type": "string"
+                },
+                "onPremiseRole": {
+                  "type": "null"
+                },
+                "endCompleteDate": {
+                  "type": "null"
+                },
+                "pendingReferenceHeaderId": {
+                  "type": "null"
+                },
+                "pendingReferenceLineId": {
+                  "type": "null"
+                },
+                "internalStatus": {
+                  "type": "null"
+                },
+                "externalStatus": {
+                  "type": "null"
+                },
+                "provisionInfoEmail": {
+                  "type": "null"
+                },
+                "licenseType": {
+                  "type": "null"
+                },
+                "customerReference": {
+                  "type": "null"
+                },
+                "pakDeliveryReference": {
+                  "type": "null"
+                },
+                "eDeliveryEmail": {
+                  "type": "string"
+                },
+                "derivedPreviousQuantity": {
+                  "type": "integer"
+                },
+                "derivedOfferType": {
+                  "type": "null"
+                },
+                "offerType": {
+                  "type": "null"
+                },
+                "derivedCustServiceRep": {
+                  "type": "string"
+                },
+                "hybridOfferFlag": {
+                  "type": "string"
+                },
+                "flexibleServiceStartDelay": {
+                  "type": "null"
+                },
+                "configAdditionalItemInfo": {
+                  "type": "string"
+                },
+                "subscriptionUnitId": {
+                  "type": "null"
+                },
+                "erpHeaderId": {
+                  "type": "null"
+                },
+                "installToPgtmvbegeoid": {
+                  "type": "null"
+                },
+                "installToPgtmvbeid": {
+                  "type": "null"
+                },
+                "installToPgtmvbecountryid": {
+                  "type": "null"
+                },
+                "installToPgtmvbegeositeid": {
+                  "type": "null"
+                },
+                "installToChannelid": {
+                  "type": "null"
+                },
+                "derivedProductFamily": {
+                  "type": "string"
+                },
+                "derivedPonrFlag": {
+                  "type": "string"
+                },
+                "statusUpdateDate": {
+                  "type": "string"
+                },
+                "changeCode": {
+                  "type": "string"
+                },
+                "remainingTerm": {
+                  "type": "number"
+                },
+                "requestedEndDate": {
+                  "type": "null"
+                },
+                "unusedTerm": {
+                  "type": "null"
+                },
+                "parentLineRefNumber": {
+                  "type": "string"
+                },
+                "bundleSku": {
+                  "type": "null"
+                },
+                "termBasedLstPrc": {
+                  "type": "null"
+                },
+                "termBasedNetPrcInclCredit": {
+                  "type": "null"
+                },
+                "termBasedNetPrcExclCredit": {
+                  "type": "null"
+                },
+                "previousRemainingTerm": {
+                  "type": "integer"
+                },
+                "subscriptionTrialId": {
+                  "type": "null"
+                },
+                "targetSubscriptionRefId": {
+                  "type": "null"
+                },
+                "oaEligibleFlg": {
+                  "type": "null"
+                },
+                "corpDevDealType": {
+                  "type": "null"
+                },
+                "corpDevDealName": {
+                  "type": "null"
+                },
+                "purchaseDate": {
+                  "type": "string"
+                },
+                "purchasedSkuId": {
+                  "type": "null"
+                },
+                "siteDeactivation": {
+                  "type": "null"
+                },
+                "etf": {
+                  "type": "null"
+                },
+                "lossReason": {
+                  "type": "null"
+                },
+                "managerName": {
+                  "type": "null"
+                },
+                "cancelType": {
+                  "type": "null"
+                },
+                "requestorName": {
+                  "type": "null"
+                },
+                "threshold": {
+                  "type": "null"
+                },
+                "agentName": {
+                  "type": "null"
+                },
+                "expectedLossDate": {
+                  "type": "null"
+                },
+                "approvalRequired": {
+                  "type": "null"
+                },
+                "requestorRole": {
+                  "type": "null"
+                },
+                "crTimestamp": {
+                  "type": "null"
+                },
+                "email": {
+                  "type": "null"
+                },
+                "pendingRefOrderNumber": {
+                  "type": "null"
+                },
+                "pendingRefLineRefNumber": {
+                  "type": "null"
+                },
+                "itemAttrGrp": {
+                  "type": "null"
+                },
+                "mappedSoftwareProduct": {
+                  "type": "null"
+                },
+                "transactionCode": {
+                  "type": "null"
+                },
+                "serviceCoverageInfo": {
+                  "type": "null"
+                },
+                "pricingTerm": {
+                  "type": "null"
+                },
+                "processingFlow": {
+                  "type": "null"
+                },
+                "groupLineId": {
+                  "type": "integer"
+                },
+                "origLineRefNumber": {
+                  "type": "null"
+                },
+                "sourceSubscriptionRefId": {
+                  "type": "null"
+                },
+                "creditUpdated": {
+                  "type": "null"
+                },
+                "accountingRule": {
+                  "type": "null"
+                },
+                "accountingDuration": {
+                  "type": "string"
+                },
+                "callRtrEngineFlag": {
+                  "type": "string"
+                },
+                "rtrEligible": {
+                  "type": "string"
+                },
+                "elaFlag": {
+                  "type": "null"
+                },
+                "elaBuyingProgram": {
+                  "type": "null"
+                },
+                "elaCplDiscount": {
+                  "type": "null"
+                },
+                "taxRate": {
+                  "type": "null"
+                },
+                "taxAmount": {
+                  "type": "null"
+                },
+                "marketPlaceReferralFee": {
+                  "type": "null"
+                },
+                "lineCategoryCode": {
+                  "type": "null"
+                },
+                "migrationFlag": {
+                  "type": "null"
+                },
+                "migratedSoNumber": {
+                  "type": "null"
+                },
+                "migratedSoLineId": {
+                  "type": "null"
+                },
+                "migratedDealId": {
+                  "type": "null"
+                },
+                "trialPeriodDuration": {
+                  "type": "null"
+                },
+                "expirationDate": {
+                  "type": "null"
+                },
+                "invoiceStatus": {
+                  "type": "null"
+                },
+                "invoiceNumber": {
+                  "type": "null"
+                },
+                "invoiceDate": {
+                  "type": "null"
+                },
+                "invoiceType": {
+                  "type": "null"
+                },
+                "monetizationTypeCode": {
+                  "type": "null"
+                },
+                "businessUnitId": {
+                  "type": "null"
+                },
+                "trueForwardFlag": {
+                  "type": "null"
+                },
+                "termStartDate": {
+                  "type": "null"
+                },
+                "termEndDate": {
+                  "type": "null"
+                },
+                "appliedBuyingProgram": {
+                  "type": "null"
+                },
+                "duoAccountId": {
+                  "type": "null"
+                },
+                "derivedDuoFlag": {
+                  "type": "string"
+                },
+                "opportunityLineId": {
+                  "type": "null"
+                },
+                "captureOrderLineId": {
+                  "type": "null"
+                },
+                "priorityRefNumber": {
+                  "type": "null"
+                },
+                "priorityLineRefNumber": {
+                  "type": "null"
+                },
+                "transferFlag": {
+                  "type": "null"
+                },
+                "recognizedBookingEligibleFlag": {
+                  "type": "string"
+                },
+                "bookingExclusionReason": {
+                  "type": "null"
+                },
+                "eaCrossReference": {
+                  "type": "null"
+                },
+                "serviceLineIndex": {
+                  "type": "null"
+                },
+                "asQuoteNumber": {
+                  "type": "null"
+                },
+                "calculatePriceFlag": {
+                  "type": "null"
+                },
+                "ciDiscount": {
+                  "type": "null"
+                },
+                "ciListPrice": {
+                  "type": "null"
+                },
+                "ciSellingPrice": {
+                  "type": "null"
+                },
+                "ciNetprice": {
+                  "type": "null"
+                },
+                "cleanConfigFlag": {
+                  "type": "null"
+                },
+                "configCheckedTimestamp": {
+                  "type": "null"
+                },
+                "configPath": {
+                  "type": "null"
+                },
+                "context": {
+                  "type": "null"
+                },
+                "ecoNumber": {
+                  "type": "null"
+                },
+                "elaPricingMajorHeader": {
+                  "type": "null"
+                },
+                "endCustomerNote": {
+                  "type": "null"
+                },
+                "endDateAlignmentFlag": {
+                  "type": "null"
+                },
+                "entitlementStatus": {
+                  "type": "null"
+                },
+                "freightCarrierAccount": {
+                  "type": "null"
+                },
+                "freightCarrierCode": {
+                  "type": "null"
+                },
+                "futureInvoiceReleaseDate": {
+                  "type": "null"
+                },
+                "itemIdentifierType": {
+                  "type": "null"
+                },
+                "mandatoryCsspAttach": {
+                  "type": "null"
+                },
+                "mandatoryServiceFlag": {
+                  "type": "null"
+                },
+                "minimumDurationFlag": {
+                  "type": "null"
+                },
+                "poeRohsFlg": {
+                  "type": "null"
+                },
+                "projectNumber": {
+                  "type": "null"
+                },
+                "promiseDate": {
+                  "type": "null"
+                },
+                "returnReasonCode": {
+                  "type": "null"
+                },
+                "revenueSourceCode": {
+                  "type": "null"
+                },
+                "rnsdId": {
+                  "type": "null"
+                },
+                "salesMotion": {
+                  "type": "null"
+                },
+                "selectionFlag": {
+                  "type": "null"
+                },
+                "servicePeriod": {
+                  "type": "null"
+                },
+                "serviceReferenceTypeCode": {
+                  "type": "null"
+                },
+                "shipmentPriorityCode": {
+                  "type": "null"
+                },
+                "shippingInstructions": {
+                  "type": "null"
+                },
+                "shippingMethodCode": {
+                  "type": "null"
+                },
+                "solnToBeCloned": {
+                  "type": "null"
+                },
+                "swSubEndDate": {
+                  "type": "null"
+                },
+                "swSubPeriod": {
+                  "type": "null"
+                },
+                "swSubStartDate": {
+                  "type": "null"
+                },
+                "swUpgCoveredPid": {
+                  "type": "null"
+                },
+                "swUpgFulfillmentPid": {
+                  "type": "null"
+                },
+                "taaFlag": {
+                  "type": "null"
+                },
+                "taxExemptFlag": {
+                  "type": "null"
+                },
+                "taxExemptReasonCode": {
+                  "type": "null"
+                },
+                "userItemDescription": {
+                  "type": "null"
+                },
+                "deliveryOptions": {
+                  "type": "null"
+                },
+                "logistics": {
+                  "type": "null"
+                },
+                "notes": {
+                  "type": "null"
+                },
+                "origCovPrdLnId": {
+                  "type": "null"
+                },
+                "unitNetPriceBeforeCredit": {
+                  "type": "null"
+                },
+                "componentCode": {
+                  "type": "null"
+                },
+                "componentNumber": {
+                  "type": "null"
+                },
+                "componentSequenceId": {
+                  "type": "null"
+                },
+                "consolidatedSetId": {
+                  "type": "null"
+                },
+                "contractQuoteNumber": {
+                  "type": "null"
+                },
+                "coveredProductLineId": {
+                  "type": "null"
+                },
+                "creditInvoiceLineId": {
+                  "type": "null"
+                },
+                "earliestAcceptableDate": {
+                  "type": "null"
+                },
+                "instanceId": {
+                  "type": "null"
+                },
+                "orderSourceId": {
+                  "type": "null"
+                },
+                "paymentTermId": {
+                  "type": "null"
+                },
+                "referenceCustomerTrxLineId": {
+                  "type": "null"
+                },
+                "referenceHeaderId": {
+                  "type": "null"
+                },
+                "referenceLineId": {
+                  "type": "null"
+                },
+                "serialNumber": {
+                  "type": "null"
+                },
+                "serviceDuration": {
+                  "type": "null"
+                },
+                "serviceReferenceLineId": {
+                  "type": "null"
+                },
+                "solutionId": {
+                  "type": "null"
+                },
+                "solutionIdentifier": {
+                  "type": "null"
+                },
+                "sourceDocumentId": {
+                  "type": "null"
+                },
+                "sourceDocumentLineId": {
+                  "type": "null"
+                },
+                "sourceDocumentTypeId": {
+                  "type": "null"
+                },
+                "swSubDuration": {
+                  "type": "null"
+                },
+                "swUpgContractNumber": {
+                  "type": "null"
+                },
+                "taxExemptNumber": {
+                  "type": "null"
+                },
+                "canceldFlag": {
+                  "type": "null"
+                },
+                "delToCntctId": {
+                  "type": "null"
+                },
+                "delToOrgId": {
+                  "type": "null"
+                },
+                "fobPntCd": {
+                  "type": "null"
+                },
+                "tacCaseNum": {
+                  "type": "null"
+                },
+                "frieghtTermsCode": {
+                  "type": "null"
+                },
+                "inCntryRtCd": {
+                  "type": "null"
+                },
+                "invcngRuleId": {
+                  "type": "null"
+                },
+                "svcMdOfDel": {
+                  "type": "null"
+                },
+                "mfgPoOrgId": {
+                  "type": "null"
+                },
+                "reasonCode": {
+                  "type": "null"
+                },
+                "recommitDt": {
+                  "type": "null"
+                },
+                "requestDate": {
+                  "type": "null"
+                },
+                "schArrDt": {
+                  "type": "null"
+                },
+                "schShpDt": {
+                  "type": "null"
+                },
+                "shpStId": {
+                  "type": "null"
+                },
+                "svcOffstDays": {
+                  "type": "null"
+                },
+                "shpdQty": {
+                  "type": "null"
+                },
+                "recptQty": {
+                  "type": "null"
+                },
+                "bundleSubscriptioFlag": {
+                  "type": "null"
+                },
+                "ciscoShipConfirmDate": {
+                  "type": "null"
+                },
+                "creationTimeStamp": {
+                  "type": "null"
+                },
+                "endCompletionDate": {
+                  "type": "null"
+                },
+                "erpLineNumber": {
+                  "type": "null"
+                },
+                "eventType": {
+                  "type": "null"
+                },
+                "groupLineType": {
+                  "type": "null"
+                },
+                "partName": {
+                  "type": "null"
+                },
+                "prevCcwOrderlineId": {
+                  "type": "null"
+                },
+                "pricingInfo": {
+                  "type": "null"
+                },
+                "statusMappingCode": {
+                  "type": "null"
+                },
+                "lineTypeCode": {
+                  "type": "string"
+                },
+                "itemAcvEligibleFlag": {
+                  "type": "string"
+                },
+                "acvFlag": {
+                  "type": "null"
+                },
+                "acvAmount": {
+                  "type": "null"
+                },
+                "elaCplListPrice": {
+                  "type": "null"
+                },
+                "bookTerm": {
+                  "type": "null"
+                },
+                "originalUnitListPrice": {
+                  "type": "null"
+                },
+                "originalExtListPrice": {
+                  "type": "null"
+                },
+                "billImmediate": {
+                  "type": "null"
+                },
+                "referenceType": {
+                  "type": "null"
+                },
+                "derivedAppdFlag": {
+                  "type": "string"
+                },
+                "magicKey": {
+                  "type": "null"
+                },
+                "edeliveryCustRef": {
+                  "type": "null"
+                },
+                "endCustomerNotes": {
+                  "type": "null"
+                },
+                "termBoundCredit": {
+                  "type": "null"
+                },
+                "serviceLevelCode": {
+                  "type": "null"
+                },
+                "customerAcceptanceDays": {
+                  "type": "null"
+                },
+                "customerAcceptanceDate": {
+                  "type": "null"
+                },
+                "shippingInfo": {
+                  "type": "object",
+                  "properties": {
+                    "freightCarrierCode": {
+                      "type": "null"
+                    },
+                    "shippingPreference": {
+                      "type": "null"
+                    },
+                    "freightCarrierAccount": {
+                      "type": "null"
+                    },
+                    "requestDate": {
+                      "type": "null"
+                    },
+                    "serviceLevelCode": {
+                      "type": "null"
+                    },
+                    "shippingMethodDescription": {
+                      "type": "null"
+                    },
+                    "inventoryOrgName": {
+                      "type": "null"
+                    },
+                    "routingCode": {
+                      "type": "null"
+                    },
+                    "deliveryId": {
+                      "type": "null"
+                    },
+                    "freightCharge": {
+                      "type": "null"
+                    },
+                    "repairCharges": {
+                      "type": "null"
+                    },
+                    "deliveryNumber": {
+                      "type": "null"
+                    },
+                    "pickReleaseCountry": {
+                      "type": "null"
+                    },
+                    "incoTerm": {
+                      "type": "null"
+                    },
+                    "dutyPaidFlag": {
+                      "type": "null"
+                    },
+                    "cogsCost": {
+                      "type": "null"
+                    },
+                    "cogsCostCurrencyCode": {
+                      "type": "null"
+                    },
+                    "revenueFlag": {
+                      "type": "null"
+                    },
+                    "cogsConvDate": {
+                      "type": "null"
+                    },
+                    "shippingEntity": {
+                      "type": "null"
+                    },
+                    "shipFromCountry": {
+                      "type": "null"
+                    },
+                    "carrierServiceLevel": {
+                      "type": "null"
+                    },
+                    "trackingNumber": {
+                      "type": "null"
+                    },
+                    "pricingAgreementExpireDate": {
+                      "type": "null"
+                    },
+                    "pricingAgreementNumber": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "freightCarrierCode",
+                    "shippingPreference",
+                    "freightCarrierAccount",
+                    "requestDate",
+                    "serviceLevelCode",
+                    "shippingMethodDescription",
+                    "inventoryOrgName",
+                    "routingCode",
+                    "deliveryId",
+                    "freightCharge",
+                    "repairCharges",
+                    "deliveryNumber",
+                    "pickReleaseCountry",
+                    "incoTerm",
+                    "dutyPaidFlag",
+                    "cogsCost",
+                    "cogsCostCurrencyCode",
+                    "revenueFlag",
+                    "cogsConvDate",
+                    "shippingEntity",
+                    "shipFromCountry",
+                    "carrierServiceLevel",
+                    "trackingNumber",
+                    "pricingAgreementExpireDate",
+                    "pricingAgreementNumber"
+                  ]
+                },
+                "topModelLineRefNumber": {
+                  "type": "string"
+                },
+                "linkToLineRefNumber": {
+                  "type": "null"
+                },
+                "bundleLineRefNumber": {
+                  "type": "null"
+                },
+                "optionNumber": {
+                  "type": "null"
+                },
+                "shipmentNumber": {
+                  "type": "null"
+                },
+                "serviceNumber": {
+                  "type": "null"
+                },
+                "actualShipmentDate": {
+                  "type": "null"
+                },
+                "shippableFlag": {
+                  "type": "null"
+                },
+                "transferUnitPrice": {
+                  "type": "null"
+                },
+                "serviceRefLineRefNumber": {
+                  "type": "null"
+                },
+                "wplUnitListPrice": {
+                  "type": "null"
+                },
+                "periodicBillingFlag": {
+                  "type": "null"
+                },
+                "previousContractNumber": {
+                  "type": "null"
+                },
+                "mappedCoveredProduct": {
+                  "type": "null"
+                },
+                "paymentTermName": {
+                  "type": "null"
+                },
+                "invoiceAmount": {
+                  "type": "null"
+                },
+                "billingSchedule": {
+                  "type": "null"
+                },
+                "lineTypeId": {
+                  "type": "null"
+                },
+                "splitFromLineId": {
+                  "type": "null"
+                },
+                "poEntity": {
+                  "type": "null"
+                },
+                "originalOrderNumber": {
+                  "type": "null"
+                },
+                "originalLineRefNumber": {
+                  "type": "null"
+                },
+                "subscriptionOffsetDays": {
+                  "type": "null"
+                },
+                "mappedSoftwareQuantity": {
+                  "type": "null"
+                },
+                "onLeaseFlag": {
+                  "type": "null"
+                },
+                "pbsParentLineId": {
+                  "type": "null"
+                },
+                "earlyRenewal": {
+                  "type": "string"
+                },
+                "noahEligible": {
+                  "type": "null"
+                },
+                "retroCancelationDate": {
+                  "type": "null"
+                },
+                "retroCancelReasonCode": {
+                  "type": "null"
+                },
+                "retroUnusedTerm": {
+                  "type": "null"
+                },
+                "masterAgreementId": {
+                  "type": "null"
+                },
+                "commitStatus": {
+                  "type": "null"
+                },
+                "multiSuiteDiscount": {
+                  "type": "null"
+                },
+                "multiPoolDiscount": {
+                  "type": "null"
+                },
+                "multiEnrollmentDiscount": {
+                  "type": "null"
+                },
+                "bpaSubscriptionRefId": {
+                  "type": "null"
+                },
+                "sourceTransactionRefId": {
+                  "type": "null"
+                },
+                "sellerRevenueShare": {
+                  "type": "null"
+                },
+                "usageStartDate": {
+                  "type": "null"
+                },
+                "usageEndDate": {
+                  "type": "null"
+                },
+                "marketPlaceTrxType": {
+                  "type": "null"
+                },
+                "isSubscriptionActive": {
+                  "type": "null"
+                },
+                "shipFromOrgIdCloud": {
+                  "type": "null"
+                },
+                "consumptionMap": {
+                  "type": "null"
+                },
+                "consumptionModel": {
+                  "type": "null"
+                },
+                "subBundleType": {
+                  "type": "null"
+                },
+                "consumptionPercentage": {
+                  "type": "null"
+                },
+                "unroundedUnitNetDiscount": {
+                  "type": "null"
+                },
+                "unitNetDiscount": {
+                  "type": "null"
+                },
+                "subscriptionGroupId": {
+                  "type": "null"
+                },
+                "flexup": {
+                  "type": "null"
+                },
+                "subsRnwTermChangeFlag": {
+                  "type": "string"
+                },
+                "referenceTransactionId": {
+                  "type": "null"
+                },
+                "derivedTeFlag": {
+                  "type": "string"
+                },
+                "userIntent": {
+                  "type": "null"
+                },
+                "atrLinkId": {
+                  "type": "null"
+                },
+                "sourceAppRefId": {
+                  "type": "null"
+                },
+                "sourceApp": {
+                  "type": "null"
+                },
+                "replicationFactor": {
+                  "type": "null"
+                },
+                "adminOverhead": {
+                  "type": "null"
+                },
+                "thirdPartyOffer": {
+                  "type": "null"
+                },
+                "thirdPartyStorageProvider": {
+                  "type": "null"
+                },
+                "scheduleDeliverDate": {
+                  "type": "null"
+                },
+                "scheduleInstallDate": {
+                  "type": "null"
+                },
+                "actualDeliverDate": {
+                  "type": "null"
+                },
+                "shipmentDetails": {
+                  "type": "null"
+                },
+                "bundleGroupId": {
+                  "type": "null"
+                },
+                "parentBillingSku": {
+                  "type": "null"
+                },
+                "derivedMappedProdFamily": {
+                  "type": "null"
+                },
+                "plan": {
+                  "type": "null"
+                },
+                "effectiveFulfillmentEligibleDate": {
+                  "type": "null"
+                },
+                "retroRemainingTerm": {
+                  "type": "null"
+                },
+                "relatedSku": {
+                  "type": "null"
+                },
+                "cxSupportType": {
+                  "type": "null"
+                },
+                "PreviousLineRefNumber": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "subscriptionactiontype",
+                "headerId",
+                "lineId",
+                "origSystemLineRef",
+                "orderedItem",
+                "itemTypeCode",
+                "flowStatusCode",
+                "orderedQuantity",
+                "cancelledQuantity",
+                "offerQuantity",
+                "unitNetPrice",
+                "roundedUnitNetPrice",
+                "netPriceChangeFlag",
+                "chargeType",
+                "shipToOrgId",
+                "installSiteuseId",
+                "topModelLineId",
+                "linkToLineId",
+                "subscriptionRefId",
+                "subscriptionId",
+                "actionType",
+                "actionSubType",
+                "monthlyRecurringRevenue",
+                "initialTerm",
+                "renewalTerm",
+                "previousSubscriptionId",
+                "requestedStartDate",
+                "contractStartDate",
+                "contractEndDate",
+                "endCustomerSiteUseId",
+                "monthlyNpiIncludingCredits",
+                "monthlySubCredits",
+                "contractNumber",
+                "serviceStartDate",
+                "serviceEndDate",
+                "imrr",
+                "nrr",
+                "renewCounter",
+                "subscriptionCredits",
+                "monthlyNpExclCredit",
+                "lineRefNumber",
+                "endCompleteDate",
+                "hybridOfferFlag",
+                "subscriptionUnitId",
+                "remainingTerm",
+                "parentLineRefNumber",
+                "bundleSku",
+                "previousRemainingTerm",
+                "termStartDate",
+                "termEndDate",
+                "endCompletionDate",
+                "magicKey",
+                "termBoundCredit",
+                "topModelLineRefNumber",
+                "linkToLineRefNumber",
+                "originalLineRefNumber",
+                "earlyRenewal",
+                "noahEligible",
+                "PreviousLineRefNumber"
+              ]
+            }
+          ]
+        },
+        "PartyAccounts": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "integer"
+                },
+                "customerNumber": {
+                  "type": "string"
+                },
+                "businessName": {
+                  "type": "string"
+                },
+                "partyId": {
+                  "type": "integer"
+                },
+                "siteUseId": {
+                  "type": "integer"
+                },
+                "address1": {
+                  "type": "string"
+                },
+                "address2": {
+                  "type": "string"
+                },
+                "address3": {
+                  "type": "null"
+                },
+                "address4": {
+                  "type": "null"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "county": {
+                  "type": "null"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "null"
+                },
+                "phone": {
+                  "type": "null"
+                },
+                "territoryCountry": {
+                  "type": "string"
+                },
+                "countryCode": {
+                  "type": "string"
+                },
+                "postalCodeCode": {
+                  "type": "string"
+                },
+                "stateName": {
+                  "type": "string"
+                },
+                "province": {
+                  "type": "null"
+                },
+                "custAcctSiteId": {
+                  "type": "integer"
+                },
+                "contactName": {
+                  "type": "null"
+                },
+                "customerTyp": {
+                  "type": "string"
+                },
+                "crPartyId": {
+                  "type": "integer"
+                },
+                "contactId": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "partnerSiteUseId": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "customerId",
+                "customerNumber",
+                "businessName",
+                "partyId",
+                "siteUseId",
+                "address1",
+                "address2",
+                "address3",
+                "address4",
+                "city",
+                "county",
+                "country",
+                "email",
+                "phone",
+                "territoryCountry",
+                "countryCode",
+                "postalCodeCode",
+                "stateName",
+                "province",
+                "custAcctSiteId",
+                "contactName",
+                "customerTyp",
+                "crPartyId",
+                "contactId",
+                "lastUpdatedBy",
+                "partnerSiteUseId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "integer"
+                },
+                "customerNumber": {
+                  "type": "string"
+                },
+                "businessName": {
+                  "type": "string"
+                },
+                "partyId": {
+                  "type": "integer"
+                },
+                "siteUseId": {
+                  "type": "integer"
+                },
+                "address1": {
+                  "type": "string"
+                },
+                "address2": {
+                  "type": "string"
+                },
+                "address3": {
+                  "type": "null"
+                },
+                "address4": {
+                  "type": "null"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "county": {
+                  "type": "null"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "null"
+                },
+                "phone": {
+                  "type": "null"
+                },
+                "territoryCountry": {
+                  "type": "string"
+                },
+                "countryCode": {
+                  "type": "string"
+                },
+                "postalCodeCode": {
+                  "type": "string"
+                },
+                "stateName": {
+                  "type": "string"
+                },
+                "province": {
+                  "type": "null"
+                },
+                "custAcctSiteId": {
+                  "type": "integer"
+                },
+                "contactName": {
+                  "type": "null"
+                },
+                "customerTyp": {
+                  "type": "string"
+                },
+                "crPartyId": {
+                  "type": "integer"
+                },
+                "contactId": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "partnerSiteUseId": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "customerId",
+                "customerNumber",
+                "businessName",
+                "partyId",
+                "siteUseId",
+                "address1",
+                "address2",
+                "address3",
+                "address4",
+                "city",
+                "county",
+                "country",
+                "email",
+                "phone",
+                "territoryCountry",
+                "countryCode",
+                "postalCodeCode",
+                "stateName",
+                "province",
+                "custAcctSiteId",
+                "contactName",
+                "customerTyp",
+                "crPartyId",
+                "contactId",
+                "lastUpdatedBy",
+                "partnerSiteUseId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "integer"
+                },
+                "customerNumber": {
+                  "type": "string"
+                },
+                "businessName": {
+                  "type": "string"
+                },
+                "partyId": {
+                  "type": "integer"
+                },
+                "siteUseId": {
+                  "type": "integer"
+                },
+                "address1": {
+                  "type": "string"
+                },
+                "address2": {
+                  "type": "string"
+                },
+                "address3": {
+                  "type": "null"
+                },
+                "address4": {
+                  "type": "null"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "county": {
+                  "type": "null"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "null"
+                },
+                "phone": {
+                  "type": "null"
+                },
+                "territoryCountry": {
+                  "type": "string"
+                },
+                "countryCode": {
+                  "type": "string"
+                },
+                "postalCodeCode": {
+                  "type": "string"
+                },
+                "stateName": {
+                  "type": "string"
+                },
+                "province": {
+                  "type": "null"
+                },
+                "custAcctSiteId": {
+                  "type": "integer"
+                },
+                "contactName": {
+                  "type": "null"
+                },
+                "customerTyp": {
+                  "type": "string"
+                },
+                "crPartyId": {
+                  "type": "integer"
+                },
+                "contactId": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "partnerSiteUseId": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "customerId",
+                "customerNumber",
+                "businessName",
+                "partyId",
+                "siteUseId",
+                "address1",
+                "address2",
+                "address3",
+                "address4",
+                "city",
+                "county",
+                "country",
+                "email",
+                "phone",
+                "territoryCountry",
+                "countryCode",
+                "postalCodeCode",
+                "stateName",
+                "province",
+                "custAcctSiteId",
+                "contactName",
+                "customerTyp",
+                "crPartyId",
+                "contactId",
+                "lastUpdatedBy",
+                "partnerSiteUseId"
+              ]
+            }
+          ]
+        },
+        "Contacts": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "orderContactId": {
+                  "type": "integer"
+                },
+                "orderNumber": {
+                  "type": "string"
+                },
+                "headerId": {
+                  "type": "integer"
+                },
+                "lineId": {
+                  "type": "null"
+                },
+                "contactId": {
+                  "type": "integer"
+                },
+                "contactType": {
+                  "type": "string"
+                },
+                "phoneNumber": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "middleName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "emailId": {
+                  "type": "string"
+                },
+                "accountType": {
+                  "type": "string"
+                },
+                "creationDate": {
+                  "type": "null"
+                },
+                "createdBy": {
+                  "type": "null"
+                },
+                "lastUpdateDate": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "partnerContactId": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "orderContactId",
+                "orderNumber",
+                "headerId",
+                "lineId",
+                "contactId",
+                "contactType",
+                "phoneNumber",
+                "firstName",
+                "middleName",
+                "lastName",
+                "emailId",
+                "accountType",
+                "creationDate",
+                "createdBy",
+                "lastUpdateDate",
+                "lastUpdatedBy",
+                "partnerContactId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "orderContactId": {
+                  "type": "integer"
+                },
+                "orderNumber": {
+                  "type": "string"
+                },
+                "headerId": {
+                  "type": "integer"
+                },
+                "lineId": {
+                  "type": "null"
+                },
+                "contactId": {
+                  "type": "integer"
+                },
+                "contactType": {
+                  "type": "string"
+                },
+                "phoneNumber": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "middleName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "emailId": {
+                  "type": "string"
+                },
+                "accountType": {
+                  "type": "string"
+                },
+                "creationDate": {
+                  "type": "null"
+                },
+                "createdBy": {
+                  "type": "null"
+                },
+                "lastUpdateDate": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "partnerContactId": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "orderContactId",
+                "orderNumber",
+                "headerId",
+                "lineId",
+                "contactId",
+                "contactType",
+                "phoneNumber",
+                "firstName",
+                "middleName",
+                "lastName",
+                "emailId",
+                "accountType",
+                "creationDate",
+                "createdBy",
+                "lastUpdateDate",
+                "lastUpdatedBy",
+                "partnerContactId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "orderContactId": {
+                  "type": "integer"
+                },
+                "orderNumber": {
+                  "type": "string"
+                },
+                "headerId": {
+                  "type": "integer"
+                },
+                "lineId": {
+                  "type": "integer"
+                },
+                "contactId": {
+                  "type": "integer"
+                },
+                "contactType": {
+                  "type": "string"
+                },
+                "phoneNumber": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "middleName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "emailId": {
+                  "type": "string"
+                },
+                "accountType": {
+                  "type": "string"
+                },
+                "creationDate": {
+                  "type": "null"
+                },
+                "createdBy": {
+                  "type": "null"
+                },
+                "lastUpdateDate": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "partnerContactId": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "orderContactId",
+                "orderNumber",
+                "headerId",
+                "lineId",
+                "contactId",
+                "contactType",
+                "phoneNumber",
+                "firstName",
+                "middleName",
+                "lastName",
+                "emailId",
+                "accountType",
+                "creationDate",
+                "createdBy",
+                "lastUpdateDate",
+                "lastUpdatedBy",
+                "partnerContactId"
+              ]
+            }
+          ]
+        },
+        "PriceAdjustments": {
+          "type": "null"
+        },
+        "SmartAccounts": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "lineId": {
+                  "type": "integer"
+                },
+                "orderInfoId": {
+                  "type": "null"
+                },
+                "headerId": {
+                  "type": "null"
+                },
+                "accountId": {
+                  "type": "string"
+                },
+                "accountName": {
+                  "type": "string"
+                },
+                "accountType": {
+                  "type": "string"
+                },
+                "virtualAccountId": {
+                  "type": "null"
+                },
+                "virtualAccountName": {
+                  "type": "null"
+                },
+                "domainIdentifier": {
+                  "type": "string"
+                },
+                "creationDate": {
+                  "type": "null"
+                },
+                "createdBy": {
+                  "type": "null"
+                },
+                "lastUpdateDate": {
+                  "type": "null"
+                },
+                "lastUpdatedBy": {
+                  "type": "null"
+                },
+                "status": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "lineId",
+                "orderInfoId",
+                "headerId",
+                "accountId",
+                "accountName",
+                "accountType",
+                "virtualAccountId",
+                "virtualAccountName",
+                "domainIdentifier",
+                "creationDate",
+                "createdBy",
+                "lastUpdateDate",
+                "lastUpdatedBy",
+                "status"
+              ]
+            }
+          ]
+        },
+        "ItemAttrGrp": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "Header",
+        "Lines",
+        "PartyAccounts",
+        "Contacts",
+        "PriceAdjustments",
+        "SmartAccounts",
+        "ItemAttrGrp"
+      ]
+    },
+    "HoldData": {
+      "type": "null"
+    },
+    "BookingsData": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "Sender",
+    "OrderData",
+    "HoldData",
+    "BookingsData"
+  ]
+}

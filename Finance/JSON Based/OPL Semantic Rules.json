@@ -1,0 +1,59 @@
+[
+  {"_comment": "A count of >= 1 indicates Breach"},
+  {
+    "_comment":"AutoRenewal orders should be Activated from New TermStartDate(Immediatley after previous order reached the TermEndDate)",
+    "queryType": "SELECT",
+    "selectFields": [
+      "count(*)"
+    ],
+    "fromTable": [
+      "OPLORDERS_HEADERS order",
+      "XXOPL_ORDER_LINES_ALL orderLine"
+    ],
+    "whereClause": {
+      "condition": "AND",
+      "subconditions": [
+        {
+          "field": "order.OrderType",
+          "operator": "=",
+          "value": "AUTO RENEWAL"
+        },
+        {
+          "field": "orderLine.TermStartDate",
+          "operator": "<=",
+          "value": "CurrentDate()"
+        },
+        {
+          "field": "orderLine.FlowStatusCode",
+          "operator": "in",
+          "value": [ "ACTIVATION_COMPLETE", "CLOSED" ]
+        }
+      ]
+    }
+  },
+  {
+    "_comment":"MRR cant be Null or Negative",
+    "queryType": "SELECT",
+    "selectFields": [
+      "count(*)"
+    ],
+    "fromTable": [
+      "XXOPL_ORDER_LINES_ALL orderLine"
+    ],
+    "whereClause": {
+      "condition": "AND",
+      "subconditions": [
+        {
+          "field": "orderLine.ActionType",
+          "operator": "in",
+          "value": [ "ADD", "MODIFY", "NOCHANGE" ]
+        },
+        {
+          "field": "orderLine.monthlyRecurringRevenue",
+          "operator": "<=",
+          "value": 0
+        }
+      ]
+    }
+  }
+]

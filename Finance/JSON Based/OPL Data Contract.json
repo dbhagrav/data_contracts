@@ -1,0 +1,34 @@
+{
+  "sor": {
+    "system": "OPL",
+    "dataOwner": "clchang",
+    "dataSteward": "apillai",
+    "input": {
+      "type": "file",
+      "name": "OPL.json"
+    }
+  },
+  "dataDomain": {
+    "domain": "Finance",
+    "dataOwner": "rorugant",
+    "dataSteward": "rorugant",
+    "system": "Teradata",
+    "sourceSimilar": [ "OPLORDERS_HEADERS", "XXOPL_ORDER_LINES_ALL" ]
+  },
+  "contractRules": {
+    "freqency": 15,
+    "volume": "changesOnly",
+    "schemaRules": "https://cisco.sharepoint.com/:u:/s/DAG/EXRkYnuOi4FIkuLQqmSsaxgB2dpfsgWMgKQRw_rGkVdsKQ?e=4uP06x",
+    "semanticRules": "https://cisco.sharepoint.com/:u:/s/DAG/EfkXmo8FekdIliGgpyekkTkBsz5VtWH0G5nnt40qDU5vow?e=TtUdqX",
+    "JSONtoSourceSimilarMapping": "https://cisco.sharepoint.com/:u:/s/DAG/EaPweq9GEXBJrJ-XBDB1ewkBeA1cgje8-ikg42ovDyIvQw?e=ZLJ9Qx"
+  },
+  "signatures": {
+    "sor": {
+      "signedBy": [ "clchang", "apillai" ]
+    },
+    "dataDomain": {
+      "signedBy": [ "rorugant", "rorugant" ]
+    },
+    "date": "12/05/2023"
+  }
+}

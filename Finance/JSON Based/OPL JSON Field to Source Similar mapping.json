@@ -1,0 +1,18 @@
+{
+  "OrderData": {
+    "Header": {
+      "fields": {
+        "orderNumber": "OPLORDERS_HEADERS.ORDERNUMBER",
+        "custPoNumber": "OPLORDERS_HEADERS.CUSTPONUMBER"
+      }
+    },
+    "Lines": {
+      "fields": {
+        "orderedQuantity": "XXOPL_ORDER_LINES_ALL.ORDERED_QUANTITY",
+        "orderedItem": "XXOPL_ORDER_LINES_ALL.ORDERED_ITEM",
+        "unitNetPrice": "XXOPL_ORDER_LINES_ALL.UNIT_NET_PRICE",
+        "offerQuantity": "XXOPL_ORDER_LINES_ALL.OFFER_QUANTITY"
+      }
+    }
+  }
+}
