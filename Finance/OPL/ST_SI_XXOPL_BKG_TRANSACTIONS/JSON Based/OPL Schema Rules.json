@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "CREATION_DATE": {
+      "type": "string",
+      "format": "date"
+    },
+    "MONTHLY_RECURRING_REVENUE": { "type": "number" },
+    "BOOKING_TYPE": { "enum": [ "NEW", "MODIFY", "AUTO-RENEWAL", "MANUAL RENEWAL", "REPLACE", "CANCEL", "CANCEL-PDODR", "TRANSFER", "MANUAL EXTENSION", "AUTO RENEWAL" ] },
+    "BILL_TO_CR_PARTY_ID": {
+      "type": "number",
+      "max": 0
+    },
+    "BOOKING_RECOGNITION_TYPE": { "enum": [ "RECURRING_RECOGNITION", "USAGE", "RECURRING_RECOGNITION_TERM", "RECURRING_RECOGNITION_OTHER" ] },
+    "BOOKING_TERM": {
+      "type": "number",
+      "min": 0
+    },
+    "CURRENCY_CODE": {
+      "type": "string",
+      "pattern": "^[a-zA-Z]{3}$"
+    },
+    "ORDER_NUMBER": { "type": "number" },
+    "ORIG_LINE_REF_NUMBER": { "type": "number" },
+    "#\"CREATION_DATE\"": { "pattern": "^\\d{2}-\\d{2}-\\d{3}$" },
+    "BOOKING_REFERENCE_DATE": { "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+  },
+  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER", "CREATION_DATE", "BOOKING_REFERENCE_DATE" ]
+}

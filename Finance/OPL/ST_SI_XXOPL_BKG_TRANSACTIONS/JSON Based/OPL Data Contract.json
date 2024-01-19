@@ -18,9 +18,9 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://cisco.sharepoint.com/:u:/s/DAG/EXRkYnuOi4FIkuLQqmSsaxgB2dpfsgWMgKQRw_rGkVdsKQ?e=4uP06x",
-    "semanticRules": "https://cisco.sharepoint.com/:u:/s/DAG/EfkXmo8FekdIliGgpyekkTkBsz5VtWH0G5nnt40qDU5vow?e=TtUdqX",
-    "JSONtoSourceSimilarMapping": "https://cisco.sharepoint.com/:u:/s/DAG/EaPweq9GEXBJrJ-XBDB1ewkBeA1cgje8-ikg42ovDyIvQw?e=ZLJ9Qx"
+    "schemaRules": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/JSON%20Based/OPL%20Schema%20Rules.json",
+    "semanticRules": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/JSON%20Based/OPL%20Semantic%20Rules.json",
+    "JSONtoSourceSimilarMapping": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/JSON%20Based/OPL%20JSON%20Field%20to%20Source%20Similar%20mapping.json"
   },
   "signatures": {
     "sor": {
