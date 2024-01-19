@@ -13,7 +13,7 @@
     "dataOwner": "rorugant",
     "dataSteward": "rorugant",
     "system": "Teradata",
-    "sourceSimilar": [ "OPLORDERS_HEADERS", "XXOPL_ORDER_LINES_ALL" ]
+    "sourceSimilar": "gcp-edwprddata-prd-33200.TRANS_NRTNCRDB.ST_SI_XXOPL_BKG_TRANSACTIONS"
   },
   "contractRules": {
     "freqency": 15,
