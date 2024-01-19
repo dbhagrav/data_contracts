@@ -9,16 +9,17 @@
     }
   },
   "dataDomain": {
-    "domain": "Finance",
+    "domain": "FINANCE",
     "dataOwner": "rorugant",
     "dataSteward": "rorugant",
     "system": "Teradata",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.TRANS_NRTNCRDB.ST_SI_XXOPL_BKG_TRANSACTIONS"
+    "sourceSimilar": "gcp-edwprddata-prd-33200.TRANS_NRTNCRDB.ST_SI_XXOPL_BKG_TRANSACTIONS",
+    "trxID": "TRX_ID"
   },
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Schema%20Rules.json",
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Schema%20Rules.json",
     "semanticRules": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Semantic%20Rules.json",
     "JSONtoSourceSimilarMapping": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20JSON%20Field%20to%20Source%20Similar%20mapping.json"
   },
