@@ -21,7 +21,7 @@
       "pattern": "^[a-zA-Z]{3}$"
     },
     "ORDER_NUMBER": { "type": "string" },
-    "ORIG_LINE_REF_NUMBER": { "type": "number" },
+    "ORIG_LINE_REF_NUMBER": { "type": "string" },
     "#\"CREATION_DATE\"": { "pattern": "^\\d{2}-\\d{2}-\\d{3}$" },
     "BOOKING_REFERENCE_DATE": { "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
   },
