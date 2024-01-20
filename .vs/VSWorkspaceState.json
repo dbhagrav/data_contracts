@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Finance",
+    "\\Finance\\OPL",
+    "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
+    "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based"
   ],
-  "SelectedNode": "\\C:\\Users\\dbhargav\\OneDrive - Cisco\\Documents\\GitHub\\data_contracts",
+  "SelectedNode": "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based\\OPL Data Contract.json",
   "PreviewInSolutionExplorer": false
 }
