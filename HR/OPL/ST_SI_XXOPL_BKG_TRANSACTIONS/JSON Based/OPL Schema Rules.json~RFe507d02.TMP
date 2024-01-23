@@ -3,12 +3,12 @@
   "properties": {
     "MONTHLY_RECURRING_REVENUE": { "type": "number" },
     "BOOKING_RECOGNITION_TYPE": {
-      "anyOf": [
+      "allOf": [
         {
-          "type": [ "null" ]
+          "type": [ "string", "null" ]
         },
         {
-          "enum": [ "RECURRING_RECOGNITION", "USAGE", "RECURRING_RECOGNITION_TERM", "RECURRING_RECOGNITION_OTHER" ]
+          "enum": [ "RECURRING_RECOGNITION", "USAGE", "RECURRING_RECOGNITION_TERM", "RECURRING_RECOGNITION_OTHER", "None" ]
         }
       ]
     }
