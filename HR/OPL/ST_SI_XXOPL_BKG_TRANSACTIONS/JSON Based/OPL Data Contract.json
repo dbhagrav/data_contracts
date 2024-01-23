@@ -1,0 +1,41 @@
+{
+  "sor": {
+    "system": "OPL",
+    "dataOwner": "clchang",
+    "dataSteward": "apillai",
+    "input": {
+      "type": "file",
+      "name": "OPL.json"
+    }
+  },
+  "dataDomain": {
+    "domain": "HR",
+    "dataOwner": "ankuaga3",
+    "dataSteward": "deeppate",
+    "system": "Teradata",
+    "sourceSimilar": "gcp-edwprddata-prd-33200.TRANS_NRTNCRDB.ST_SI_XXOPL_BKG_TRANSACTIONS",
+    "trxID": "TRX_ID",
+    "creationDate": "CREATION_DATE"
+  },
+  "contractRules": {
+    "freqency": 15,
+    "volume": "changesOnly",
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Schema%20Rules.json"
+  },
+  "signatures": {
+    "sor": {
+      "signedBy": [
+        "clchang",
+        "apillai"
+      ]
+    },
+    "dataDomain": {
+      "signedBy": [
+        "ankuaga3",
+        "deeppate"
+      ]
+    },
+    "date": "01/23/2023"
+  }
+}
+
