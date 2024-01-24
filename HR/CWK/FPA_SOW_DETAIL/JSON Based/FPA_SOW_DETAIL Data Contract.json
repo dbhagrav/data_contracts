@@ -5,7 +5,7 @@
     "dataSteward": "def",
     "input": {
       "type": "file",
-      "name": ""abc.csv"
+      "name": "abc.csv"
     }
   },
   "dataDomain": {
