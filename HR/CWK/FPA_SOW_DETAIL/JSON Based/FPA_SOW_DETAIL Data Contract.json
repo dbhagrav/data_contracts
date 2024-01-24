@@ -13,7 +13,7 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "GCP-BQ",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.AAA_TEST",
+    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_SOW_DETAIL",
     "trxID": "STATEMENT_OF_WORK_ID",
     "creationDate": "STATEMENT_OF_WORK_CREATE_DATE"
   },
