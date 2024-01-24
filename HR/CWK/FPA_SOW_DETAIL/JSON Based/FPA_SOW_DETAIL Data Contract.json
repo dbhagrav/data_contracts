@@ -15,7 +15,7 @@
     "system": "GCP-BQ",
     "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_SOW_DETAIL",
     "trxID": "STATEMENT_OF_WORK_ID",
-    "creationDate": "CREATION_DATE"
+    "creationDate": "STATEMENT_OF_WORK_CREATE_DATE"
   },
   "contractRules": {
     "freqency": 15,

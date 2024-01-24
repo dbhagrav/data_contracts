@@ -1,0 +1,2 @@
+insert into
+`gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DC_SCHEMA_HEADER_INFO` (DATA_DOMAIN, DATABASE_NAME, TABLE_NAME, DATA_CONTRACT_URL) VALUES ("HR", "SSDB", "FPA_SOW_DETAIL", "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_SOW_DETAIL/JSON%20Based/FPA_SOW_DETAIL%20Data%20Contract.json")
