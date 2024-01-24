@@ -4,7 +4,12 @@
     "\\Finance",
     "\\Finance\\OPL",
     "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
-    "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based"
+    "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based",
+    "\\HR",
+    "\\HR\\OPL",
+    "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
+    "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based"
   ],
+  "SelectedNode": "\\HR\\OPL (2)",
   "PreviewInSolutionExplorer": false
 }

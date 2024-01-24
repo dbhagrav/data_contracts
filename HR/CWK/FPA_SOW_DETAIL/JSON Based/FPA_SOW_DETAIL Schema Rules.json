@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "STATEMENT_OF_WORK_OWNER_EMAIL": { "type": "email" },
+    "PO_NUMBER": {
+      "anyOf": [
+        {
+          "type": [ "null" ]
+        },
+        {
+          "type": "string",
+          "pattern": "^(?=.*[1-9])\\d*$"
+        }
+      ]
+    },
+    "BAN_NUMBER": {
+      "anyOf": [
+        {
+          "type": [ "null" ]
+        },
+        {
+          "type": "string",
+          "pattern": "^\\d+$"
+        }
+      ]
+    }
+  }
+}
