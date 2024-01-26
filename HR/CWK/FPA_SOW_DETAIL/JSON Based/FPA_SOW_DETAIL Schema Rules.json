@@ -1,41 +1,37 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
     "STATEMENT_OF_WORK_OWNER_EMAIL": { "format": "email" },
     "PO_NUMBER": {
       "anyOf": [
-        {
-          "type": [ "null" ]
-        },
-        {
-          "type": "string"
-        }
+        { "type": "null" },
+        { "type": "string" }
       ]
     },
-    "if": {
-      "properties": {
-        "onboarding_only": { "const": "Y" }
-      }
-    },
-    "then": {
-      "properties": {
-        "PO_NUMBER": { "const": "UNKNOWN" }
-      },
-      "required": [ "PO_NUMBER" ]
+    "ONBOARDING_ONLY": {
+      "type": "string"
     },
     "BAN_NUMBER": {
       "anyOf": [
-        {
-          "type": [ "null" ]
-        },
-        {
-          "const": ""
-        },
+        { "type": "null" },
+        { "const": "" },
         {
           "type": "string",
           "pattern": "^\\d+$"
         }
       ]
     }
+  },
+  "if": {
+    "properties": {
+      "ONBOARDING_ONLY": { "const": "Y" }
+    }
+  },
+  "then": {
+    "properties": {
+      "PO_NUMBER": { "const": "UNKNOWN" }
+    },
+    "required": [ "PO_NUMBER" ]
   }
 }

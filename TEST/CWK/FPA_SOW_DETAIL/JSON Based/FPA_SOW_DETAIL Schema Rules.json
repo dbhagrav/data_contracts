@@ -25,13 +25,13 @@
   },
   "if": {
     "properties": {
-      "ONBOARDING_ONLY": { "const": "N" }
+      "ONBOARDING_ONLY": { "const": "Y" }
     },
     "required": [ "ONBOARDING_ONLY" ]
   },
   "then": {
     "properties": {
-      "PO_NUMBER": { "pattern": "^\\d+$" }
+      "PO_NUMBER": { "const": "UNKNOWN"}
     },
     "required": [ "PO_NUMBER" ]
   }
