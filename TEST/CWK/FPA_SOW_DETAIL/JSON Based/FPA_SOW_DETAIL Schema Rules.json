@@ -13,6 +13,9 @@
         }
       ]
     },
+    "ONBOARDING_ONLY": {
+      "type": "string"
+    },
     "if": {
       "properties": {
         "ONBOARDING_ONLY": { "const": "N" }
