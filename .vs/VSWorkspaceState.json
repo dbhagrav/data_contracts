@@ -1,15 +1,18 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Finance",
-    "\\Finance\\OPL",
-    "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
-    "\\Finance\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based",
     "\\HR",
     "\\HR\\OPL",
     "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
-    "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based"
+    "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based",
+    "\\sql",
+    "\\sql\\BQ",
+    "\\TEST",
+    "\\TEST\\CWK",
+    "\\TEST\\CWK\\FPA_SOW_DETAIL",
+    "\\TEST\\CWK\\FPA_SOW_DETAIL\\JSON Based",
+    "\\TEST\\CWK\\FPA_SOW_DETAIL\\Test"
   ],
-  "SelectedNode": "\\HR\\OPL (2)",
+  "SelectedNode": "\\Finance",
   "PreviewInSolutionExplorer": false
 }
