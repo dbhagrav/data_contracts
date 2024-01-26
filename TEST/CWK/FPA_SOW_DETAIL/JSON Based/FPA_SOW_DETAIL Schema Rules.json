@@ -20,7 +20,7 @@
     },
     "then": {
       "properties": {
-        "PO_NUMBER": { "const": "UNKNO" }
+        "PO_NUMBER": { "pattern": "^\\d+$" }
       },
       "required": [ "PO_NUMBER" ]
     },
