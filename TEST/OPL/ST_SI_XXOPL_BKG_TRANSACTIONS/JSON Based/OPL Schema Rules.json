@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "MONTHLY_RECURRING_REVENUE": { "type": "number" },
+    "BOOKING_RECOGNITION_TYPE": {
+      "anyOf": [
+        {
+          "type": [ "null" ]
+        },
+        {
+          "enum": [ "RECURRING_RECOGNITION", "USAGE", "RECURRING_RECOGNITION_TERM", "RECURRING_RECOGNITION_OTHER" ]
+        }
+      ]
+    }
+  }
+}

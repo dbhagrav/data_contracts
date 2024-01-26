@@ -12,17 +12,6 @@
         }
       ]
     },
-    "if": {
-      "properties": {
-        "onboarding_only": { "const": "Y" }
-      }
-    },
-    "then": {
-      "properties": {
-        "PO_NUMBER": { "const": "UNKNOWN" }
-      },
-      "required": [ "PO_NUMBER" ]
-    },
     "BAN_NUMBER": {
       "anyOf": [
         {
@@ -36,6 +25,18 @@
           "pattern": "^\\d+$"
         }
       ]
+    },
+    "if": {
+      "properties": {
+        "onboarding_only": { "const": "Y" }
+      }
+    },
+    "then": {
+      "properties": {
+        "required": [ "po_number" ],
+        "const": "UNKNOWN"
+      }
     }
+
   }
 }

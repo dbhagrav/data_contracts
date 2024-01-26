@@ -8,20 +8,11 @@
           "type": [ "null" ]
         },
         {
-          "type": "string"
-        }
+          "type": "string",
+          "pattern": "^([1-9])\\d*$"
+        },
+        { "const": "UNKNOWN" }
       ]
-    },
-    "if": {
-      "properties": {
-        "onboarding_only": { "const": "Y" }
-      }
-    },
-    "then": {
-      "properties": {
-        "PO_NUMBER": { "const": "UNKNOWN" }
-      },
-      "required": [ "PO_NUMBER" ]
     },
     "BAN_NUMBER": {
       "anyOf": [
@@ -29,13 +20,21 @@
           "type": [ "null" ]
         },
         {
-          "const": ""
-        },
-        {
           "type": "string",
           "pattern": "^\\d+$"
         }
       ]
     }
+  },
+  "if": {
+    "properties": {
+      "onboarding_only": { "const": "Y" }
+    }
+  },
+  "then": {
+    "properties": {
+      "PO_NUMBER": { "const": "UNKNOWN" }
+    },
+    "required": [ "PO_NUMBER" ]
   }
 }
