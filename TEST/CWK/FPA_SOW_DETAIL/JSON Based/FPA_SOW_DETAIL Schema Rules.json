@@ -19,7 +19,7 @@
     },
     "then": {
       "properties": {
-        "PO_NUMBER": { "const": "UNKNOWN" }
+        "PO_NUMBER": { "const": "UNKNO" }
       },
       "required": [ "PO_NUMBER" ]
     },
