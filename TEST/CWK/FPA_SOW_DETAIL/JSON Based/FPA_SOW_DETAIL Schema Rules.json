@@ -14,7 +14,7 @@
     },
     "if": {
       "properties": {
-        "onboarding_only": { "const": "Y" }
+        "onboarding_only": { "const": "N" }
       }
     },
     "then": {
