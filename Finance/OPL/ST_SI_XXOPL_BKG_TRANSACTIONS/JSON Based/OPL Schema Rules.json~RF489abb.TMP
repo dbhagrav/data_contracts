@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "CREATION_DATE": {
+      "type": "string",
+      "format": "date",
+      "description": "Check string is in date format"
+    },
+    "MONTHLY_RECURRING_REVENUE": {
+      "type": "number",
+      "min": 0,
+      "description": "Check MRR is not negative"
+    },
+    "BOOKING_TYPE": {
+      "enum": [ "NEW", "MODIFY", "AUTO-RENEWAL", "MANUAL RENEWAL", "REPLACE", "CANCEL", "CANCEL-PDODR", "TRANSFER", "MANUAL EXTENSION", "AUTO RENEWAL" ],
+      "description": "Ceck BOOKING_TYPE is not null and is in one of the above values"
+    },
+    "BILL_TO_CR_PARTY_ID": {
+      "type": "integer",
+      "max": 0,
+      "description": "Check BILL_TO_CR_PARTY_ID is not negative"
+    },
+    "BOOKING_RECOGNITION_TYPE": {
+      "anyOf": [
+        { "type": "null" },
+        { "enum": [ "RECURRING_RECOGNITION", "USAGE", "RECURRING_RECOGNITION_TERM", "RECURRING_RECOGNITION_OTHER" ] }
+      ],
+      "description": "Check BOOKING_RECOGNITION_TYPE is null or one of the above values"
+    },
+    "BOOKING_TERM": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "number",
+          "minimum": 0
+        }
+      ],
+      "description": "Check BOOKING_TERM is null or a positive number"
+    },
+    "CURRENCY_CODE": {
+      "type": "string",
+      "pattern": "^[a-zA-Z]{3}$"
+    },
+    "ORDER_NUMBER": { "type": "string" },
+    "ORIG_LINE_REF_NUMBER": { "type": "string" },
+    "#\"CREATION_DATE\"": { "pattern": "^\\d{2}-\\d{2}-\\d{3}$" },
+    "BOOKING_REFERENCE_DATE": { "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  },
+  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER", "CREATION_DATE", "BOOKING_REFERENCE_DATE" ]
+}

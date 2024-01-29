@@ -27,7 +27,7 @@
         { "type": "null" },
         {
           "type": "integer",
-          "minimum": 1,
+          "maximum": 0,
           "description": "Check BILL_TO_CR_PARTY_ID is null or not negative"
         }
       ]
@@ -84,5 +84,5 @@
       "description": "BOOKING_REFERENCE_DATE is a valid date and not defaulted and not null"
     }
   },
-  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER",  "BOOKING_REFERENCE_DATE", "ORIG_LINE_REF_NUMBER", "CREATION_DATE" ]
+  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER", "CREATION_DATE", "BOOKING_REFERENCE_DATE", "ORIG_LINE_REF_NUMBER", "CREATION_DATE" ]
 }
