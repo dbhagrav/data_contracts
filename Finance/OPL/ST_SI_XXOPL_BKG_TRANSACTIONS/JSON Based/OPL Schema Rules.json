@@ -67,9 +67,15 @@
       "description": "check order_number is an integer greater than zero"
     },
     "ORIG_LINE_REF_NUMBER": {
-      "pattern": "^[1-9]\\d*$",
-      "type": "string",
-      "description": "check ORIG_LINE_REF_NUMBER is not null an integer greater than zero"
+      "anyOf": [
+        { "type": "null" },
+
+        {
+          "pattern": "^[1-9]\\d*$",
+          "type": "string",
+          "description": "check ORIG_LINE_REF_NUMBER is not null an integer greater than zero"
+        }
+      ]
     },
     "BOOKING_REFERENCE_DATE": {
       "allOff": [
@@ -84,5 +90,5 @@
       "description": "BOOKING_REFERENCE_DATE is a valid date and not defaulted and not null"
     }
   },
-  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER",  "BOOKING_REFERENCE_DATE", "ORIG_LINE_REF_NUMBER", "CREATION_DATE" ]
+  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER", "BOOKING_REFERENCE_DATE", "ORIG_LINE_REF_NUMBER", "CREATION_DATE" ]
 }
