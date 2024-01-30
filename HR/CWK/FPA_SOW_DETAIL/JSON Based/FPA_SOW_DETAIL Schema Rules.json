@@ -18,7 +18,7 @@
         { "const": "" },
         {
           "type": "string",
-          "pattern": "^\\d+$"
+          "pattern": "^(0|[1-9]\\d*)$"
         }
       ]
     }
@@ -32,6 +32,6 @@
     "properties": {
       "PO_NUMBER": { "const": "UNKNOWN" }
     },
-    "required": [ "PO_NUMBER" ]
+    "required": [ "PO_NUMBER", "STATEMENT_OF_WORK_OWNER_EMAIL" ]
   }
 }
