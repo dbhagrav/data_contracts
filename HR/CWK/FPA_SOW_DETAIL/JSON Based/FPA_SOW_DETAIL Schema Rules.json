@@ -15,7 +15,6 @@
     "BAN_NUMBER": {
       "anyOf": [
         { "type": "null" },
-        { "const": "" },
         {
           "type": "string",
           "pattern": "^(0|[1-9]\\d*)$"
