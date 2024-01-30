@@ -13,8 +13,8 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "GCP-BQ",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_JOB_POSTING_DETAIL",
-    "trxID": "JOB_POSTING_ID",
+    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_SOW_WORK_ORDER_DETAIL",
+    "trxID": "WORK_ORDER_ID",
     "creationDate": "EDWBQ_CREATE_DTM",
     "creationDateType": "TIMESTAMP"
   },

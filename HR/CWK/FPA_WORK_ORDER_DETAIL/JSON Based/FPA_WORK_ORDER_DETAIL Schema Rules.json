@@ -2,10 +2,18 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "WORK_SITE": {
+    "CISCO_HRMS_ID_NUMBER": {
       "allOf": [
         { "type": "string" },
-        { "not": { "type": "null" } }
+        { "not": { "type": "null" } },
+        { "pattern": "^[1-9]\\d*$" }
+      ]
+    },
+    "PR_NUMBER": {
+      "allOf": [
+        { "type": "string" },
+        { "not": { "type": "null" } },
+        { "pattern": "^[1-9]\\d*$" }
       ]
     }
   }

@@ -13,15 +13,15 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "GCP-BQ",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_JOB_POSTING_DETAIL",
-    "trxID": "JOB_POSTING_ID",
+    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_WORK_ORDER_DETAIL",
+    "trxID": "WORK_ORDER_ID",
     "creationDate": "EDWBQ_CREATE_DTM",
     "creationDateType": "TIMESTAMP"
   },
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_JOB_POSTING_DETAIL/JSON%20Based/FPA_JOB_POSTING_DETAIL%20Schema%20Rules.json"
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_WORK_ORDER_DETAIL/JSON%20Based/FPA_WORK_ORDER_DETAIL%20Schema%20Rules.json"
   },
   "signatures": {
     "sor": {
