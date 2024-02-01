@@ -1,0 +1,44 @@
+{
+  "sor": {
+    "system": "CWK",
+    "dataOwner": "abc",
+    "dataSteward": "def",
+    "input": {
+      "type": "file",
+      "name": "abc.csv"
+    }
+  },
+  "dataDomain": {
+    "domain": "HR",
+    "dataOwner": "ankuaga3",
+    "dataSteward": "deeppate",
+    "system": "GCP-BQ",
+    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_JOB_POSTING_DETAIL",
+    "ValidationProcedure": "gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.DC_TEST_INVALID_PRODUCT_PRC",
+    "trxID": "JOB_POSTING_ID",
+    "creationDate": "EDWBQ_CREATE_DTM",
+    "creationDateType": "TIMESTAMP"
+  },
+  "contractRules": {
+    "freqency": 15,
+    "volume": "changesOnly",
+    "semanticRules": "https://raw.githubusercontent.com/todo.doc",
+    "MONITOR_TYPE" : "PRC"
+  },
+  "signatures": {
+    "sor": {
+      "signedBy": [
+        "abc",
+        "def"
+      ]
+    },
+    "dataDomain": {
+      "signedBy": [
+        "frg",
+        "cpe"
+      ]
+    },
+    "date": "01/25/2023"
+  }
+}
+

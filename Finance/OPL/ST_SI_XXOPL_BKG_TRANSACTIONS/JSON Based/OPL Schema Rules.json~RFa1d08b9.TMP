@@ -1,0 +1,94 @@
+{
+  "type": "object",
+  "properties": {
+    "CREATION_DATE": {
+      "allOff": [
+        {
+          "type": "string",
+          "format": "date",
+          "description": "Check string is in date format"
+        },
+        { "not": { "const": "1900-01-01" } },
+        { "not": { "const": "3500-01-01" } }
+      ],
+      "description": "CREATION_DATE is a valid date and not defaulted and not null"
+    },
+    "MONTHLY_RECURRING_REVENUE": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Check MRR is not negative"
+    },
+    "BOOKING_TYPE": {
+      "enum": [ "NEW", "MODIFY", "AUTO-RENEWAL", "MANUAL RENEWAL", "REPLACE", "CANCEL", "CANCEL-PDODR", "TRANSFER", "MANUAL EXTENSION", "AUTO RENEWAL" ],
+      "description": "Check BOOKING_TYPE is not null and is in one of the above values"
+    },
+    "BILL_TO_CR_PARTY_ID": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Check BILL_TO_CR_PARTY_ID is null or not negative"
+        }
+      ]
+    },
+    "BOOKING_RECOGNITION_TYPE": {
+      "anyOf": [
+        { "type": "null" },
+        { "enum": [ "RECURRING_RECOGNITION", "USAGE", "RECURRING_RECOGNITION_TERM", "RECURRING_RECOGNITION_OTHER" ] }
+      ],
+      "description": "Check BOOKING_RECOGNITION_TYPE is null or one of the above values"
+    },
+    "CHARGE_TYPE": {
+      "anyOf": [
+        { "type": "null" },
+        { "enum": [ "Recurring", "Usage", "Amortized One Time", "One-Time", "Recurring Arrears" ] }
+      ],
+      "description": "Check CHARGE_TYPE is null or one of the above values"
+    },
+    "BOOKING_TERM": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "number",
+          "minimum": 0
+        }
+      ],
+      "description": "Check BOOKING_TERM is null or a positive number"
+    },
+    "CURRENCY_CODE": {
+      "type": "string",
+      "pattern": "^[a-zA-Z]{3}$",
+      "description": "Check currency_code is not null and has exactly three characters"
+    },
+    "ORDER_NUMBER": {
+      "type": "string",
+      "pattern": "^[1-9]\\d*$",
+      "description": "check order_number is an integer greater than zero"
+    },
+    "ORIG_LINE_REF_NUMBER": {
+      "anyOf": [
+        { "type": "null" },
+
+        {
+          "pattern": "^[1-9]\\d*$",
+          "type": "string",
+          "description": "check ORIG_LINE_REF_NUMBER is not null an integer greater than zero"
+        }
+      ]
+    },
+    "BOOKING_REFERENCE_DATE": {
+      "allOff": [
+        {
+          "type": "string",
+          "format": "date",
+          "description": "Check string is in date format"
+        },
+        { "not": { "const": "1900-01-01" } },
+        { "not": { "const": "3500-01-01" } }
+      ],
+      "description": "BOOKING_REFERENCE_DATE is a valid date and not defaulted and not null"
+    }
+  },
+  "required": [ "BOOKING_TYPE", "BILL_TO_CR_PARTY_ID", "CURRENCY_CODE", "ORDER_NUMBER", "BOOKING_REFERENCE_DATE", "ORIG_LINE_REF_NUMBER", "CREATION_DATE" ]
+}

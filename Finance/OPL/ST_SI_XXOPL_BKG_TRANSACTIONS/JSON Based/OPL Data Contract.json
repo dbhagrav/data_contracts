@@ -4,7 +4,7 @@
     "dataOwner": "clchang",
     "dataSteward": "apillai",
     "input": {
-      "type": "file",
+      "transmissonFormat": "JSON",
       "name": "OPL.json"
     }
   },
