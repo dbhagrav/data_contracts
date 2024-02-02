@@ -23,7 +23,7 @@
     "freqency": 15,
     "volume": "changesOnly",
     "semanticRules": "https://raw.githubusercontent.com/todo.doc",
-    "MONITOR_TYPE" : "PRC"
+    "MONITOR_TYPE" : "SP"
   },
   "signatures": {
     "sor": {
