@@ -22,8 +22,8 @@
     "freqency": 15,
     "volume": "changesOnly",
     "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Schema%20Rules.json",
-    "semanticRules": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Semantic%20Rules.json",
-    "JSONtoSourceSimilarMapping": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20JSON%20Field%20to%20Source%20Similar%20mapping.json"
+    "JSONtoSourceSimilarMapping": "https://github.com/dbhagrav/data_contracts/blob/main/Finance/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20JSON%20Field%20to%20Source%20Similar%20mapping.json",
+    "MONITOR_TYPE": "SCHEMA"
   },
   "signatures": {
     "sor": {

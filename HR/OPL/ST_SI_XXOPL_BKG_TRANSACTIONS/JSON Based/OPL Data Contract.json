@@ -20,7 +20,8 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Schema%20Rules.json"
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/OPL/ST_SI_XXOPL_BKG_TRANSACTIONS/JSON%20Based/OPL%20Schema%20Rules.json",
+    "MONITOR_TYPE": "SCHEMA"
   },
   "signatures": {
     "sor": {

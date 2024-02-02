@@ -21,7 +21,8 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_SOW_LINE_ITEM_REVIEW/JSON%20Based/FPA_SOW_LINE_ITEM_REVIEW%20Schema%20Rules.json"
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_SOW_LINE_ITEM_REVIEW/JSON%20Based/FPA_SOW_LINE_ITEM_REVIEW%20Schema%20Rules.json",
+    "MONITOR_TYPE": "SCHEMA"
   },
   "signatures": {
     "sor": {
