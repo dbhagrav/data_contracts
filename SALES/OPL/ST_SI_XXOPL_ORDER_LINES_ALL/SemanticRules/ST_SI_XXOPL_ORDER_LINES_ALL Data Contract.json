@@ -13,8 +13,8 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "GCP-BQ",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.TRANS_NRTNCRDB.ST_SI_XXOPL_ORDER_LINES_ALL",
-    "ValidationProcedure": "gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.DC_TEST_INVALID_PRODUCT_PRC",
+    "sourceSimilar": "`gcp-edwprddata-prd-33200`.TRANS_NRTNCRDB.ST_SI_XXOPL_ORDER_LINES_ALL",
+    "ValidationProcedure": "`gcp-edwprddata-prd-33200`.DCFRMWRKSNDDB.DC_TEST_INVALID_PRODUCT_PRC",
     "trxID": "JOB_POSTING_ID",
     "creationDate": "EDWBQ_CREATE_DTM",
     "creationDateType": "TIMESTAMP"
