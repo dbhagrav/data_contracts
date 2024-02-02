@@ -9,7 +9,7 @@
     }
   },
   "dataDomain": {
-    "domain": "HR",
+    "domain": "SALES",
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "GCP-BQ",
