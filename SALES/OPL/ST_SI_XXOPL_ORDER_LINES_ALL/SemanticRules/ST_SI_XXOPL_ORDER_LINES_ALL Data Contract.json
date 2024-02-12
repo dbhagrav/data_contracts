@@ -22,8 +22,8 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "semanticRules": "https://raw.githubusercontent.com/todo.doc",
-    "MONITOR_TYPE" : "SP"
+    "semanticRules": "https://github.com/dbhagrav/data_contracts/blob/main/SALES/OPL/ST_SI_XXOPL_ORDER_LINES_ALL/SemanticRules/TEST_INVALID_OPL_ORDER_LINE_PRODUCT%20Semantic%20Rule.docx",
+    "MONITOR_TYPE": "BQ_SEMANTIC"
   },
   "signatures": {
     "sor": {

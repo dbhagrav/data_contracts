@@ -22,7 +22,7 @@
     "freqency": 15,
     "volume": "changesOnly",
     "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_SOW_WORK_ORDER_DETAIL/JSON%20Based/FPA_SOW_WORK_ORDER_DETAIL%20Schema%20Rules.json",
-    "MONITOR_TYPE": "SCHEMA"
+    "MONITOR_TYPE": "BQ_SCHEMA"
   },
   "signatures": {
     "sor": {
