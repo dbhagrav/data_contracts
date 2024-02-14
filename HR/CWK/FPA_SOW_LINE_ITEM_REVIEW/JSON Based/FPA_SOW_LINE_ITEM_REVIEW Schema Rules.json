@@ -3,9 +3,13 @@
   "type": "object",
   "properties": {
     "INVOICE_ID": {
-      "allOf": [
-        { "type": [ "string", "null" ] },
-        { "pattern": "^[1-9]\\d*$"}
+      "anyOf": [
+        {
+          "type": [ "null" ]
+        },
+        {
+          "pattern": "^([1-9]\\d*)$"
+        }
       ]
     }
   }

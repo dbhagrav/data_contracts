@@ -13,12 +13,13 @@
       "allOf": [
         { "type": "string" },
         { "not": { "type": "null" } },
-        { "pattern": "^[1-9]\\d*|UNKNOWN|(Integration Use Only)$" }
+        { "pattern": "^[1-9]\\d*$" }
       ]
     },
     "BAN_NUMBER": {
-      "anyOf": [
-        { "type":[ "null"] },
+      "allOf": [
+        { "type": "string" },
+        { "not": { "type": "null" } },
         { "pattern": "^[1-9]\\d*$" }
       ]
     }

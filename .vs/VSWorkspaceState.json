@@ -2,17 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\HR",
-    "\\HR\\OPL",
-    "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
-    "\\HR\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based",
-    "\\sql",
-    "\\sql\\BQ",
-    "\\TEST",
-    "\\TEST\\CWK",
-    "\\TEST\\CWK\\FPA_SOW_DETAIL",
-    "\\TEST\\CWK\\FPA_SOW_DETAIL\\JSON Based",
-    "\\TEST\\CWK\\FPA_SOW_DETAIL\\Test"
+    "\\HR\\CWK",
+    "\\HR\\CWK\\FPA_SOW_WORK_ORDER_DETAIL",
+    "\\HR\\CWK\\FPA_SOW_WORK_ORDER_DETAIL\\JSON Based",
+    "\\HR\\CWK\\FPA_WORK_ORDER_DETAIL",
+    "\\HR\\CWK\\FPA_WORK_ORDER_DETAIL\\JSON Based",
+    "\\SALES",
+    "\\SALES\\OPL",
+    "\\SALES\\OPL\\ST_SI_XXOPL_ORDER_LINES_ALL",
+    "\\SALES\\OPL\\ST_SI_XXOPL_ORDER_LINES_ALL\\SemanticRules"
   ],
-  "SelectedNode": "\\Finance",
+  "SelectedNode": "\\SALES\\OPL\\ST_SI_XXOPL_ORDER_LINES_ALL\\SemanticRules\\ST_SI_XXOPL_ORDER_LINES_ALL Data Contract.json",
   "PreviewInSolutionExplorer": false
 }

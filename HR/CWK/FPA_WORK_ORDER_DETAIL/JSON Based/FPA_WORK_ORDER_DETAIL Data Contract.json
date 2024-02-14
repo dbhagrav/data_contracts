@@ -9,7 +9,7 @@
     }
   },
   "dataDomain": {
-    "domain": "HR",
+    "domain": "Workforce",
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "GCP-BQ",

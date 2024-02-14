@@ -10,9 +10,8 @@
       ]
     },
     "PR_NUMBER": {
-      "allOf": [
-        { "type": "string" },
-        { "not": { "type": "null" } },
+      "anyOf": [
+        { "type": "null" },
         { "pattern": "^[1-9]\\d*$" }
       ]
     }
