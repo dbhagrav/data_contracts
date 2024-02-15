@@ -1,6 +1,6 @@
 {
   "sor": {
-    "system": "CWK",
+    "system": "P2P Data Hub",
     "dataOwner": "abc",
     "dataSteward": "def",
     "input": {
@@ -15,14 +15,14 @@
     "system": "GCP-BQ",
     "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_SOW_DETAIL",
     "trxID": "STATEMENT_OF_WORK_ID",
-    "creationDate": "STATEMENT_OF_WORK_CREATE_DATE",
-    "creationDateType": "string"
+    "creationDate": "EDWBQ_CREATE_DTM",
+    "creationDateType": "TIMESTAMP"
   },
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/TEST/CWK/FPA_SOW_DETAIL/JSON%20Based/FPA_SOW_DETAIL%20Schema%20Rules.json",
-    "MONITOR_TYPE": "BQ_SEMANTIC"
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_SOW_DETAIL/JSON%20Based/FPA_SOW_DETAIL%20Schema%20Rules.json",
+    "MONITOR_TYPE": "BQ_SCHEMA"
   },
   "signatures": {
     "sor": {
