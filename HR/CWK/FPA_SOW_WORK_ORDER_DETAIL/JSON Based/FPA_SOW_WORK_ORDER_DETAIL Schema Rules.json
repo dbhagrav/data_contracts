@@ -7,20 +7,23 @@
         { "type": "string" },
         { "not": { "type": "null" } },
         { "pattern": "^[1-9]\\d*$" }
-      ]
+      ],
+      "description": "Cannot be null, and must be an integer value greater than zero."
     },
     "PO_INTEGER": {
       "allOf": [
         { "type": "string" },
         { "not": { "type": "null" } },
         { "pattern": "^[1-9]\\d*|UNKNOWN|(Integration Use Only)$" }
-      ]
+      ],
+      "description": "Cannot be null, and must be an integer value greater than zero, or constant value of UNKNOWN or Integration Use Only"
     },
     "BAN_NUMBER": {
       "anyOf": [
-        { "type":[ "null"] },
+        { "type": [ "null" ] },
         { "pattern": "^[1-9]\\d*$" }
-      ]
+      ],
+      "description": "Can be null, or integer value greater than zero."
     }
   }
 }

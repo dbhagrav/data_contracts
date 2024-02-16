@@ -8,7 +8,8 @@
         { "type": "string" },
         { "not": { "type": "null" } },
         { "not": { "pattern": "^0|-[1-9]\\d*$" } }
-      ]
+      ],
+      "description": "Cannot be null, and cannot be negative or zero. Alphanumerics are allowed."
     },
     "BAN_NUMBER": {
       "allOf": [
@@ -18,7 +19,8 @@
         {
           "pattern": "^(0|[1-9]\\d*)|UNKNOWN$"
         }
-      ]
+      ],
+      "description": "Cannot be null, and must be either a non negative number or value of UNKNOWN ."
     }
   }
 }

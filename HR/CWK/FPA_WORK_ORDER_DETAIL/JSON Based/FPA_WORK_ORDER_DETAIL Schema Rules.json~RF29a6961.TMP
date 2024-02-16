@@ -7,15 +7,13 @@
         { "type": "string" },
         { "not": { "type": "null" } },
         { "pattern": "^[1-9]\\d*$" }
-      ],
-      "description": "Cannot be null, and must be an integer value greater than zero."
+      ]
     },
     "PR_NUMBER": {
       "anyOf": [
         { "type": "null" },
         { "pattern": "^[1-9]\\d*$" }
-      ],
-      "description": "Can be null, or an integer value greater than zero."
+      ]
     }
   }
 }

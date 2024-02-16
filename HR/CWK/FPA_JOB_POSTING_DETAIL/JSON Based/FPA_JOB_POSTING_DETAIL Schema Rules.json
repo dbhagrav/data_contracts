@@ -3,7 +3,8 @@
   "type": "object",
   "properties": {
     "WORK_SITE": {
-      "not": { "type": "null" }
+      "not": { "type": "null" },
+      "description": "Cannot be null."
     }
   }
 }

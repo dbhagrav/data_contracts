@@ -6,3 +6,7 @@ SELECT * FROM `gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DATA_CONTRACTS_SCHEMA_R
 
 
 select * from `gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DATA_CONTRACTS_SCHEMA_RESULTS` where monitor_name like '%HR%edwprddata-prd-33200%'
+
+
+
+SELECT * FROM `gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DATA_CONTRACTS_SCHEMA_RESULTS` where table_name ='FPA_SOW_DETAIL' and edw
