@@ -8,7 +8,7 @@
           "not": { "type": [ "null" ] }
         },
         {
-          "pattern": "^NEW|RENEW$"
+          "enum": ["NEW","RENEW"]
         }
       ],
       "description": "Must be NEW or RENEW. Cannot be null"
