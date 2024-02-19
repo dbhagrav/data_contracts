@@ -1,0 +1,43 @@
+{
+
+  "sor": {
+    "system": "OPL",
+    "dataOwner": "clchang",
+    "dataSteward": "apillai",
+    "input": {
+      "transmissonFormat": "JSON",
+      "name": "OPL.json"
+    }
+  },
+  "dataDomain": {
+    "domain": "FINANCE",
+    "dataOwner": "rorugant",
+    "dataSteward": "rorugant",
+    "system": "Teradata",
+    "sourceSimilar": "ST_CG1_XXGCO_OE_ORD_LINES_EXT",
+    "trxID": "LINE_ID",
+    "creationDate": "CREATION_DATE",
+    "creationDateType": "TIMESTAMP"
+  },
+  "contractRules": {
+    "freqency": 15,
+    "volume": "changesOnly",
+    "schemaRules": "https://raw.githubusercontent.com/dbhagrav/data_contracts/main/HR/CWK/FPA_JOB_POSTING_DETAIL/JSON%20Based/FPA_JOB_POSTING_DETAIL%20Schema%20Rules.json",
+    "MONITOR_TYPE": "BQ_SCHEMA"
+  },
+  "signatures": {
+    "sor": {
+      "signedBy": [
+        "clchang",
+        "apillai"
+      ]
+    },
+    "dataDomain": {
+      "signedBy": [
+        "rorugant",
+        "rorugant"
+      ]
+    },
+    "date": "12/05/2023"
+  }
+}

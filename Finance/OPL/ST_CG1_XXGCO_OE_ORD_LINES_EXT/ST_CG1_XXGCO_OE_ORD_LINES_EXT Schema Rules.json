@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "SALES_MOTION": {
+      "allOf": [
+        {
+          "not": { "type": [ "null" ] }
+        },
+        {
+          "pattern": "^NEW|RENEW$"
+        }
+      ],
+      "description": "Must be NEW or RENEW. Cannot be null"
+    }
+  }
+}
