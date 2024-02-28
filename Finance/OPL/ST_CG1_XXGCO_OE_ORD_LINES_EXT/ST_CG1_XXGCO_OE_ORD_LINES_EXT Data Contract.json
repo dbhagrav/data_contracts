@@ -14,6 +14,8 @@
     "dataOwner": "rorugant",
     "dataSteward": "rorugant",
     "system": "Teradata",
+    "sourceSimilarDB": "STGDB",
+    "sourceSimilarTable": "ST_CG1_XXGCO_OE_ORD_LINES_EXT",
     "sourceSimilar": "STGDB.ST_CG1_XXGCO_OE_ORD_LINES_EXT",
     "trxID": "LINE_ID",
     "creationDate": "CREATION_DATE",

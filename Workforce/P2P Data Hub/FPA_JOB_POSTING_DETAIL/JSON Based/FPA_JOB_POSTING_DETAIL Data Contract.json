@@ -1,11 +1,11 @@
 {
   "sor": {
     "system": "P2P Data Hub",
-    "dataOwner": "abc",
-    "dataSteward": "def",
+    "dataOwner": "xyz",
+    "dataSteward": "xyz",
     "input": {
       "type": "file",
-      "name": "abc.csv"
+      "name": "xyz.csv"
     }
   },
   "dataDomain": {
