@@ -23,6 +23,7 @@
     "volume": "changesOnly",
     "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/P2P%20Data%20Hub/FPA_WORK_ORDER_DETAIL/JSON%20Based/FPA_WORK_ORDER_DETAIL%20Schema%20Rules.json",
     "MONITOR_TYPE": "BQ_SCHEMA"
+
   },
   "signatures": {
     "sor": {

@@ -17,6 +17,7 @@
     "trxID": "WORK_ORDER_ID",
     "creationDate": "EDWBQ_CREATE_DTM",
     "creationDateType": "TIMESTAMP"
+
   },
   "contractRules": {
     "freqency": 15,
