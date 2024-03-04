@@ -1,11 +1,11 @@
 {
   "sor": {
     "system": "P2P Data Hub",
-    "dataOwner": "xyz",
-    "dataSteward": "xyz",
+    "dataOwner": "vananthu",
+    "dataSteward": "vananthu",
     "input": {
-      "type": "file",
-      "name": "xyz.csv"
+      "type": "Ingestion Framework",
+      "mode": "Daily Truncate and Load"
     }
   },
   "dataDomain": {
@@ -28,8 +28,7 @@
   "signatures": {
     "sor": {
       "signedBy": [
-        "abc",
-        "def"
+        "vananthu"
       ]
     },
     "dataDomain": {
