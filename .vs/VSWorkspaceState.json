@@ -1,10 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SALES",
-    "\\SALES\\OPL",
-    "\\SALES\\OPL\\ST_SI_XXOPL_ORDER_LINES_ALL",
-    "\\SALES\\OPL\\ST_SI_XXOPL_ORDER_LINES_ALL\\SemanticRules"
+    "\\Finance",
+    "\\sql",
+    "\\sql\\BQ",
+    "\\TEST",
+    "\\TEST\\CWK",
+    "\\TEST\\OPL",
+    "\\TEST\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
+    "\\TEST\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based",
+    "\\Workforce",
+    "\\Workforce\\OPL"
   ],
+  "SelectedNode": "\\Finance\\OPL\\ST_CG1_XXGCO_OE_ORD_LINES_EXT\\ST_CG1_XXGCO_OE_ORD_LINES_EXT Data Contract.json",
   "PreviewInSolutionExplorer": false
 }
