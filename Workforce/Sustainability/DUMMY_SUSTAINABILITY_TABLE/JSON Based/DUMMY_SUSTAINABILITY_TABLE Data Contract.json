@@ -22,7 +22,7 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/Sustainability/DUMMY_SUSTAINABILITY_TABLE/JSON%20Based/DUMMY_SUSTAINABILITY_TABLE%20Data%20Contract.json",
+    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/Sustainability/DUMMY_SUSTAINABILITY_TABLE/JSON%20Based/DUMMY_SUSTAINABILITY_TABLE%20Schema%20Rules.json",
     "MONITOR_TYPE": "SF_SCHEMA"
   },
   "signatures": {
