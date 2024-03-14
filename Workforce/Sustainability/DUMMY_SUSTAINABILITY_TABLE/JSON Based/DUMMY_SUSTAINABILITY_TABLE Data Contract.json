@@ -14,7 +14,7 @@
     "dataSteward": "deeppate",
     "system": "SF",
     "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.DUMMY_SUSTAINABILITY_TABLE",
-    "trxID": "JOB_POSTING_ID",
+    "trxID": "SUS_ID",
     "creationDate": "EDWBQ_CREATE_DTM",
     "creationDateType": "TIMESTAMP"
 
