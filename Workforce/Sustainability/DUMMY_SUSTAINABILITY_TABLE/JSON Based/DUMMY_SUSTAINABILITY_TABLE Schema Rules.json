@@ -2,8 +2,9 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "cur_date": {
-      "enum": [ "bc" ],
+    "CUR_DATE": {
+      "type": "string",
+      "enum": [ "bc", "cd" ],
       "description": "Cannot be null."
     }
   }
