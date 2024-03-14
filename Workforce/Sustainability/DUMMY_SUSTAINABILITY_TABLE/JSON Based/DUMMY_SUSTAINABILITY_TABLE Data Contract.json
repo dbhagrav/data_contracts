@@ -13,9 +13,9 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "SF",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.DUMMY_SUSTAINABILITY_TABLE",
-    "trxID": "SUS_ID",
-    "creationDate": "EDWBQ_CREATE_DTM",
+    "sourceSimilar": "EDW_DCON_DB.INFORMATION_SCHEMA.DATABASES",
+    "trxID": "DATABASE_NAME",
+    "creationDate": "LAST_ALTERED",
     "creationDateType": "TIMESTAMP"
 
   },
