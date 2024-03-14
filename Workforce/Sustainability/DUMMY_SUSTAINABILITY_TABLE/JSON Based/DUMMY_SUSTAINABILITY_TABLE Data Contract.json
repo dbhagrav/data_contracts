@@ -1,6 +1,6 @@
 {
   "sor": {
-    "system": "P2P Data Hub",
+    "system": "Sustainability",
     "dataOwner": "vananthu",
     "dataSteward": "vananthu",
     "input": {
@@ -12,18 +12,18 @@
     "domain": "Workforce",
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
-    "system": "GCP-BQ",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_SOW_WORK_ORDER_DETAIL",
-    "trxID": "WORK_ORDER_ID",
+    "system": "SF",
+    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.DUMMY_SUSTAINABILITY_TABLE",
+    "trxID": "JOB_POSTING_ID",
     "creationDate": "EDWBQ_CREATE_DTM",
     "creationDateType": "TIMESTAMP"
 
   },
   "contractRules": {
-    "freqency": "daily",
-    "volume": "truncate",
-    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/P2P%20Data%20Hub/FPA_SOW_WORK_ORDER_DETAIL/JSON%20Based/FPA_SOW_WORK_ORDER_DETAIL%20Schema%20Rules.json",
-    "MONITOR_TYPE": "BQ_SCHEMA"
+    "freqency": 15,
+    "volume": "changesOnly",
+    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/P2P%20Data%20Hub/DUMMY_SUSTAINABILITY_TABLE/JSON%20Based/DUMMY_SUSTAINABILITY_TABLE%20Schema%20Rules.json",
+    "MONITOR_TYPE": "SF_SCHEMA"
   },
   "signatures": {
     "sor": {
