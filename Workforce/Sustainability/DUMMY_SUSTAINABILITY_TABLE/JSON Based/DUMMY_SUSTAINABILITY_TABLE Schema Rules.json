@@ -4,7 +4,7 @@
   "properties": {
     "CREATED": {
       "type": "string",
-      "pattern": "^\\d{3}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?[+-]\\d{2}:\\d{2}$"
+      "pattern": "^\\d{3}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?[+-]\\d{2}:\\d{2}$",
       "description": "Must be a timestamp."
     }
   }
