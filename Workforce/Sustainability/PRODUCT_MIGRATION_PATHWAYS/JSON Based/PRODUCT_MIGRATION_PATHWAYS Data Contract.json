@@ -13,10 +13,11 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "SF",
-    "sourceSimilar": "ESG_DB.ESG_SDF2_BR.DATABASES",
+    "sourceSimilar": "ESG_DB.ESG_SDF2_BR.PRODUCT_MIGRATION_PATHWAYS",
     "trxID": "UNIQUE_IDENTIFIER",
     "creationDate": "MODIFIED_ON",
-    "MODIFIED_ON": "TIMESTAMP"
+    "MODIFIED_ON": "TIMESTAMP",
+    "creationDateType": "TIMESTAMP"
   },
   "contractRules": {
     "freqency": 15,
