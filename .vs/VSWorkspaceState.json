@@ -1,17 +1,18 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Finance",
-    "\\sql",
-    "\\sql\\BQ",
     "\\TEST",
-    "\\TEST\\CWK",
     "\\TEST\\OPL",
     "\\TEST\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS",
     "\\TEST\\OPL\\ST_SI_XXOPL_BKG_TRANSACTIONS\\JSON Based",
     "\\Workforce",
-    "\\Workforce\\OPL"
+    "\\Workforce\\OPL",
+    "\\Workforce\\P2P Data Hub",
+    "\\Workforce\\P2P Data Hub\\FPA_SOW_DETAIL",
+    "\\Workforce\\P2P Data Hub\\FPA_SOW_LINE_ITEM_REVIEW\\JSON Based",
+    "\\Workforce\\P2P Data Hub\\FPA_SOW_WORK_ORDER_DETAIL",
+    "\\Workforce\\P2P Data Hub\\FPA_SOW_WORK_ORDER_DETAIL\\JSON Based"
   ],
-  "SelectedNode": "\\Finance\\OPL\\ST_CG1_XXGCO_OE_ORD_LINES_EXT\\ST_CG1_XXGCO_OE_ORD_LINES_EXT Data Contract.json",
+  "SelectedNode": "\\Workforce\\P2P Data Hub\\FPA_SOW_WORK_ORDER_DETAIL\\JSON Based\\FPA_SOW_WORK_ORDER_DETAIL Schema Rules.json",
   "PreviewInSolutionExplorer": false
 }
