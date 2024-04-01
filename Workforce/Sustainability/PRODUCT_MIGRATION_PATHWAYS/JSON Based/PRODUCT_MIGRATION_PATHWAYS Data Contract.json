@@ -21,7 +21,7 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/P2P%20Data%20Hub/FPA_WORK_ORDER_DETAIL/JSON%20Based/FPA_WORK_ORDER_DETAIL%20Schema%20Rules.json",
+    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/01ad082b71acb64850ea8daf13ec67fcae0280a4/Workforce/Sustainability/PRODUCT_MIGRATION_PATHWAYS/JSON%20Based/PRODUCT_MIGRATION_PATHWAYS%20Schema%20Rules.json",
     "MONITOR_TYPE": "BQ_SCHEMA"
 
   },
