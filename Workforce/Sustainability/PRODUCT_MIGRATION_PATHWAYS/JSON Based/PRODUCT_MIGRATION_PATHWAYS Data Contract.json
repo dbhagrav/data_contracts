@@ -1,6 +1,6 @@
 {
   "sor": {
-    "system": "P2P Data Hub",
+    "system": "Sustainability",
     "dataOwner": "vananthu",
     "dataSteward": "vananthu",
     "input": {
@@ -12,18 +12,17 @@
     "domain": "Workforce",
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
-    "system": "GCP-BQ",
-    "sourceSimilar": "gcp-edwprddata-prd-33200.SSDB.FPA_WORK_ORDER_DETAIL",
-    "trxID": "WORK_ORDER_ID",
-    "creationDate": "EDWBQ_CREATE_DTM",
-    "creationDateType": "TIMESTAMP"
+    "system": "SF",
+    "sourceSimilar": "ESG_DB.ESG_SDF2_BR.DATABASES",
+    "trxID": "UNIQUE_IDENTIFIER",
+    "creationDate": "MODIFIED_ON",
+    "MODIFIED_ON": "TIMESTAMP"
   },
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
     "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/01ad082b71acb64850ea8daf13ec67fcae0280a4/Workforce/Sustainability/PRODUCT_MIGRATION_PATHWAYS/JSON%20Based/PRODUCT_MIGRATION_PATHWAYS%20Schema%20Rules.json",
-    "MONITOR_TYPE": "BQ_SCHEMA"
-
+    "MONITOR_TYPE": "SF_SCHEMA"
   },
   "signatures": {
     "sor": {
@@ -40,4 +39,5 @@
     "date": "01/25/2023"
   }
 }
+
 
