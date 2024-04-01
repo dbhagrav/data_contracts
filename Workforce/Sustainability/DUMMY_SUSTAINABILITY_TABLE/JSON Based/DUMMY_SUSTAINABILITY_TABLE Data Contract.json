@@ -17,7 +17,6 @@
     "trxID": "DATABASE_NAME",
     "creationDate": "LAST_ALTERED",
     "creationDateType": "TIMESTAMP"
-
   },
   "contractRules": {
     "freqency": 15,
