@@ -13,7 +13,7 @@
     "dataOwner": "ankuaga3",
     "dataSteward": "deeppate",
     "system": "SF",
-    "sourceSimilar": "ESG_DB.ESG_SDF2_BR.PRODUCT_MIGRATION_PATHWAYS",
+    "sourceSimilar": "ESG_DB.ESG_SDF2_BR.ELECTRICITY_CONSUMPTION_FACTORS",
     "trxID": "UNIQUE_IDENTIFIER",
     "creationDate": "MODIFIED_ON",
     "MODIFIED_ON": "TIMESTAMP",
