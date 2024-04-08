@@ -22,7 +22,7 @@
   "contractRules": {
     "freqency": 15,
     "volume": "changesOnly",
-    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/01ad082b71acb64850ea8daf13ec67fcae0280a4/Workforce/Sustainability/PRODUCT_MIGRATION_PATHWAYS/JSON%20Based/PRODUCT_MIGRATION_PATHWAYS%20Schema%20Rules.json",
+    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/Sustainability/PRODUCT_MIGRATION_PATHWAYS/JSON%20Based/PRODUCT_MIGRATION_PATHWAYS%20Schema%20Rules.json",
     "MONITOR_TYPE": "SF_SCHEMA"
   },
   "signatures": {

@@ -9,4 +9,4 @@ select * from `gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DATA_CONTRACTS_SCHEMA_R
 
 
 
-SELECT * FROM `gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DATA_CONTRACTS_SCHEMA_RESULTS` where table_name ='FPA_SOW_DETAIL' and edw
+SELECT * FROM `gcp-edwprddata-prd-33200.DCFRMWRKSNDDB.MC_DATA_CONTRACTS_SCHEMA_RESULTS` where SOR ='Sustainability' and edw
