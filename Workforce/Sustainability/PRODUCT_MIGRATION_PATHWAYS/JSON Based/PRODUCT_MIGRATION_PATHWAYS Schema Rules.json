@@ -6,7 +6,7 @@
       "allOf": [
         { "type": "string" },
         { "not": { "type": "null" } },
-        { "pattern": "^[A-Za-z]{2}$" }
+        { "pattern": "^[A-Za-z]{3}$" }
       ],
       "description": "Cannot be null, and must be an integer value greater than zero."
     }
