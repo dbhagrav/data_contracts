@@ -2,8 +2,8 @@
 {
   "sor": {
     "system": "Sustainability",
-    "dataOwner": "vananthu",
-    "dataSteward": "vananthu",
+    "dataOwner": "ankuaga3",
+    "dataSteward": "schordia",
     "input": {
       "type": "Ingestion Framework",
       "mode": "Daily Truncate and Load"
@@ -12,30 +12,28 @@
   "dataDomain": {
     "domain": "Workforce",
     "dataOwner": "ankuaga3",
-    "dataSteward": "deeppate",
+    "dataSteward": "schordia",
     "system": "SF",
-    "sourceSimilar": "ESG_DB.ESG_SDF2_BR.ELECTRICITY_CONSUMPTION_FACTORS",
+    "sourceSimilar": "ESG_DB.ESG_SDF2_STG.CAP_EOL_EMISSIONS_INTENSITY",
     "trxID": "UNIQUE_IDENTIFIER",
     "creationDate": "MODIFIED_ON",
     "MODIFIED_ON": "TIMESTAMP",
     "creationDateType": "TIMESTAMP"
   },
   "contractRules": {
-    "freqency": 15,
-    "volume": "changesOnly",
     "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/Sustainability/PRODUCT_MIGRATION_PATHWAYS/JSON%20Based/PRODUCT_MIGRATION_PATHWAYS%20Schema%20Rules.json",
     "MONITOR_TYPE": "SF_SCHEMA"
   },
   "signatures": {
     "sor": {
       "signedBy": [
-        "vananthu"
+        "ankuaga3"
       ]
     },
     "dataDomain": {
       "signedBy": [
         "ankuaga3",
-        "deeppate"
+        "schordia"
       ]
     },
     "date": "01/25/2023"
