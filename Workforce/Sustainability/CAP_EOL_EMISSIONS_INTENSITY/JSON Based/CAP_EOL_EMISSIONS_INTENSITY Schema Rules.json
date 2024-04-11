@@ -2,13 +2,61 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "ISO_COUNTRY": {
+    "EMISSIONS_INTENSITY_FACTOR": {
       "allOf": [
-        { "type": "string" },
-        { "not": { "type": "null" } },
-        { "pattern": "^[A-Za-z]{3}$" }
+        {
+          "type": "number",
+          "pattern": "^\\d*\\.?\\d+$"
+        },
+        {
+          "not": { "type": "null" }
+        }
       ],
-      "description": "Cannot be null, and must be an integer value greater than zero."
+      "description": "Cannot be null, and must be a positive float"
+    },
+    "PROD_TYPE": {
+      "allOf": [
+        {
+          "not": { "type": [ "null" ] }
+        },
+        {
+          "pattern": "^(?!\\s*$).+"
+        }
+      ],
+      "description": "Cannot be null, and must not be blank"
+    },
+    "REGION": {
+      "allOf": [
+        {
+          "not": { "type": [ "null" ] }
+        },
+        {
+          "pattern": "^(?!\\s*$).+"
+        }
+      ],
+      "description": "Cannot be null, and must not be blank"
+    },
+    "SOURCE_DATA": {
+      "allOf": [
+        {
+          "not": { "type": [ "null" ] }
+        },
+        {
+          "pattern": "^(?!\\s*$).+"
+        }
+      ],
+      "description": "Cannot be null, and must not be blank"
+    },
+    "VERSION": {
+      "allOf": [
+        {
+          "not": { "type": [ "null" ] }
+        },
+        {
+          "pattern": "^(?!\\s*$).+"
+        }
+      ],
+      "description": "Cannot be null, and must not be blank"
     }
   }
 }

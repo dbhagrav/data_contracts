@@ -21,7 +21,7 @@
     "creationDateType": "TIMESTAMP"
   },
   "contractRules": {
-    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/Sustainability/PRODUCT_MIGRATION_PATHWAYS/JSON%20Based/PRODUCT_MIGRATION_PATHWAYS%20Schema%20Rules.json",
+    "schemaRules": "https://github.com/dbhagrav/data_contracts/raw/main/Workforce/Sustainability/CAP_EOL_EMISSIONS_INTENSITY/JSON%20Based/CAP_EOL_EMISSIONS_INTENSITY%20Schema%20Rules.json",
     "MONITOR_TYPE": "SF_SCHEMA"
   },
   "signatures": {
