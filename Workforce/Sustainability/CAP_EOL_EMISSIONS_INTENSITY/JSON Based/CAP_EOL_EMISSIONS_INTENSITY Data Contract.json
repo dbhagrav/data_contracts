@@ -16,7 +16,7 @@
     "system": "SF",
     "sourceSimilar": "ESG_DB.ESG_SDF2_STG.CAP_EOL_EMISSIONS_INTENSITY",
     "trxID": "UNIQUE_IDENTIFIER",
-    "creationDate": "null",
+    "creationDate": "NA",
     "MODIFIED_ON": "TIMESTAMP",
     "creationDateType": "TIMESTAMP"
   },
